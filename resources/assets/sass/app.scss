@@ -1,0 +1,93 @@
+@import "node_modules/bootstrap-sass/assets/stylesheets/bootstrap";
+
+
+/// Mixin printing a linear-gradient
+/// as well as a plain color fallback
+/// and the `-webkit-` prefixed declaration
+/// @access public
+/// @param {Keyword | Angle} $direction - Linear gradient direction
+/// @param {Arglist} $color-stops - List of color-stops composing the gradient
+@mixin linear-gradient($direction, $color-stops...) {
+  background: nth(nth($color-stops, 1), 1);
+  background: -webkit-linear-gradient(legacy-direction($direction), $color-stops);
+  background: linear-gradient($direction, $color-stops);
+}
+
+$lightBlue : #a3daff;
+$mediumBlue : #1ec0ff;
+$darkBlue : #0080fe;
+$altBlue : #008c9e;
+
+body{
+  background-color: $altBlue;
+}
+/// Heaader ////
+.navbar{
+  background-color: $mediumBlue;
+  margin-bottom: 0px;
+
+}
+
+.navbar-default .navbar-nav > li > a {
+  color: #ffffff;
+}
+.navbar-default .navbar-brand {
+  color: #ffffff;
+}
+
+header{
+  padding:20px 0px 20px 10px;
+  margin:0px 0;
+  @include linear-gradient($mediumBlue, $darkBlue);
+}
+header h1{
+  padding-top: 50px;
+  color: #FFFFFF;
+}
+///Pages //
+.inner-content{
+  background-color: white;
+  h1{
+    font-size: 32px;
+  }
+}
+.leadpic {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+.panel-info > .panel-heading {
+  color: white;
+  background-color: $darkBlue;
+  border-color: $mediumBlue;
+}
+
+.panel-body{
+  font-size: 24px;
+  span{
+    font-weight: 600;
+  }
+
+}
+///Footer///
+footer{
+  min-height: 40px;
+  background-color: $mediumBlue;
+  padding-left: 20px;
+  padding-top: 1s0px;
+  color: white;
+}
+
+///fixtures
+
+.fixtures, .overall{
+  font-size: 16px;
+  line-height: 1.8;
+  span{
+    padding-right: 5px;
+  }
+  ul>li{
+    list-style: none;
+  }
+}

@@ -5731,7 +5731,8 @@ button.close {
     display: none !important; } }
 
 body {
-  background-color: #008c9e; }
+  background: #0080fe;
+  background: linear-gradient(#1ec0ff, #0080fe); }
 
 .navbar {
   background-color: #1ec0ff;

@@ -19,7 +19,8 @@ $darkBlue : #0080fe;
 $altBlue : #008c9e;
 
 body{
-  background-color: $altBlue;
+  @include linear-gradient($mediumBlue, $darkBlue);
+  //background-color: $altBlue;
 }
 /// Heaader ////
 .navbar{
@@ -75,7 +76,7 @@ footer{
   min-height: 40px;
   background-color: $mediumBlue;
   padding-left: 20px;
-  padding-top: 1s0px;
+  padding-top: 10px;
   color: white;
 }
 

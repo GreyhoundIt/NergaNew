@@ -16,11 +16,11 @@ class CreateFixturesTable extends Migration
             $table->increments('id');
             $table->integer('zone_id')->unsigned()->index();
             $table->string('name');
-            $table->string('postCode')->nullable();
-            $table->date('fixtureDate')->nullable();
-            $table->time('fixtureTime')->nullable();
-            $table->string('startSheetSkeleton')->nullable();
-            $table->string('startSheetOfficial')->nullable();;
+            $table->string('postcode')->nullable();
+            $table->date('fixture_date')->nullable();
+            $table->time('fixture_time')->nullable();
+            $table->string('start_sheet_skeleton')->nullable();
+            $table->string('start_sheet_official')->nullable();;
             $table->string('team_overall')->nullable();
             $table->string('person_overall')->nullable();
             $table->timestamps();

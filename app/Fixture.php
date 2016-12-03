@@ -10,4 +10,9 @@ class Fixture extends Model
     {
         return $this->belongsTo(Zone::class);
     }
+
+    public function teamSheets()
+    {
+        return $this->hasMany(TeamSheet::class);
+    }
 }

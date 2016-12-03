@@ -11,4 +11,9 @@ class Zone extends Model
     {
         return $this->belongsTo(League::class);
     }
+
+    public function fixtures()
+    {
+        return $this->hasMany(Fixture::class);
+    }
 }

@@ -18,7 +18,7 @@ class CreateFixturesTable extends Migration
             $table->string('name');
             $table->string('postcode')->nullable();
             $table->date('fixture_date')->nullable();
-            $table->time('fixture_time')->nullable();
+            $table->string('fixture_time')->nullable();
             $table->string('start_sheet_skeleton')->nullable();
             $table->string('start_sheet_official')->nullable();;
             $table->string('team_overall')->nullable();

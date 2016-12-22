@@ -17,6 +17,9 @@ Route::get('/', function () {
 Route::get('/zone', function () {
     return view('zone');
 });
+
+Route::resource('/admin/zone','ZoneController');
+Route::resource('/admin/fixture','FixtureController');
 Route::auth();
 
 Route::get('/home', 'HomeController@index');

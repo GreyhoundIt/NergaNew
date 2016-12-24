@@ -18,8 +18,9 @@ Route::get('/zone', function () {
     return view('zone');
 });
 
-Route::resource('/admin/zone','ZoneController');
-Route::resource('/admin/fixture','FixtureController');
+Route::resource('/admin/zone','AdminZoneController');
+Route::resource('/admin/fixture','AdminFixtureController');
+Route::resource('/user/team','UserTeamSheetController');
 Route::auth();
 
 Route::get('/home', 'HomeController@index');

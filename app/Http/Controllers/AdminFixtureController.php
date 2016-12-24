@@ -9,7 +9,7 @@ use Carbon\Carbon;
 use App\Http\Requests;
 use App\Helpers\FileHelper;
 
-class FixtureController extends Controller
+class AdminFixtureController extends Controller
 {
     /**
      * Display a listing of the resource.

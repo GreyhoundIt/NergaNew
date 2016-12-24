@@ -5778,7 +5778,7 @@ footer {
   min-height: 40px;
   background-color: #1ec0ff;
   padding-left: 20px;
-  padding-top: 1s0px;
+  padding-top: 10px;
   color: white; }
 
 .fixtures, .overall {
@@ -5788,5 +5788,15 @@ footer {
     padding-right: 5px; }
   .fixtures ul > li, .overall ul > li {
     list-style: none; }
+
+.player {
+  padding-bottom: 20px;
+  padding-top: 10px; }
+
+.odd {
+  background-color: #ddeaff; }
+
+.even {
+  background-color: #bdd5fc; }
 
 /*# sourceMappingURL=app.css.map */

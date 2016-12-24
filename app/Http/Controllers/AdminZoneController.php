@@ -9,7 +9,7 @@ use Illuminate\Http\Request;
 
 use App\Http\Requests;
 
-class ZoneController extends Controller
+class AdminZoneController extends Controller
 {
     /**
      * Display a listing of the resource.

@@ -4,6 +4,7 @@ namespace App;
 
 use Illuminate\Database\Eloquent\Model;
 use App\Http\Requests;
+use Thujohn\Twitter\Facades\Twitter;
 
 class Zone extends Model
 {
@@ -36,13 +37,28 @@ class Zone extends Model
             $fileName = time() . preg_replace("/[\s_]/", "-", $fileName);
             $file->move($destinationPath, $fileName);
             $path = $destinationPath . $fileName;
-            //Todo tweat that a file has been updated.
+            // tweat that a file has been updated.
+            $this->sendZoneUpdateTweet($zone, $name);
             return $path;
         } else {
             return $oldData;
         }
     }
 
+    public function sendZoneUpdateTweet($zone, $name)
+    {
+        $league = ucwords(strtolower($zone->league->name));
+        $zoneName = ucwords(strtolower($zone->name));
+
+        if($name == 'team_overall'){
+            $msg = $league . ' League ' . $zoneName . ' Zone ' . ': Overall Team Results have now been updated on the website. #NERGA #RabbitsGolf';
+            Twitter::postTweet(['status' => $msg , 'format' => 'json']);
+        }
+        if($name == 'person_overall'){
+            $msg = $league . ' League ' . $zoneName . ' Zone ' . ': Overall Individual Results have now been updated on the website. #NERGA #RabbitsGolf';
+            Twitter::postTweet(['status' => $msg , 'format' => 'json']);
+        }
+    }
 
 
 

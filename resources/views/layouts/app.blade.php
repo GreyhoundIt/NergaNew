@@ -25,6 +25,7 @@
         }
     </style>
 </head>
+
 <body id="app-layout">
     <nav class="navbar navbar-default navbar-static-top">
         <div class="container">
@@ -51,8 +52,25 @@
                     <li><a href="{{ url('/home') }}">News</a></li>
                     <li><a href="{{ url('/home') }}">Finals Day</a></li>
                     <li><a href="{{ url('/rules') }}">Rules</a></li>
-                    <li><a href="{{ url('/home') }}">NERGA</a></li>
-                    <li><a href="{{ url('/home') }}">INTER</a></li>
+                    <li><a href="{{ url('/home') }}" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">INTER <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            @foreach($interZones as $zone)
+                                <li><a href="#">{{strtoupper($zone->name)}}</a></li>
+                                <li role="separator" class="divider"></li>
+                            @endforeach
+                        </ul>
+
+                    </li>
+                    <li><a href="{{ url('/home') }}" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">NERGA <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            @foreach($nergaZones as $zone)
+                                <li><a href="#">{{strtoupper($zone->name)}}</a></li>
+                                <li role="separator" class="divider"></li>
+                            @endforeach
+                        </ul>
+
+                    </li>
+
                     <li><a href="{{ url('/honours') }}">Honours</a></li>
                     <li><a href="{{ url('/home') }}">Links</a></li>
                     <li><a href="{{ url('/sponsors') }}">Sponsors</a></li>

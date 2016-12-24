@@ -3,6 +3,7 @@
 namespace App\Providers;
 
 use Illuminate\Support\ServiceProvider;
+use App\Zone;
 
 class AppServiceProvider extends ServiceProvider
 {
@@ -13,7 +14,11 @@ class AppServiceProvider extends ServiceProvider
      */
     public function boot()
     {
-        //
+        $this->interZones = Zone::where('league_id' , 1)->orderBy('id')->get();
+        $this->nergaZones = Zone::where('league_id' , 2)->orderBy('id')->get();
+
+        view()->share('interZones', $this->interZones);
+        view()->share('nergaZones', $this->nergaZones);
     }
 
     /**

@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Club;
 use App\Fixture;
 use App\Zone;
 use Illuminate\Http\Request;
@@ -19,7 +20,7 @@ class AdminFixtureController extends Controller
     public function index()
     {
         $fixtures = Fixture::all();
-        return view('fixtures.index')->withFixtures($fixtures);
+        return view('admin.fixtures.index')->withFixtures($fixtures);
     }
 
     /**
@@ -29,8 +30,9 @@ class AdminFixtureController extends Controller
      */
     public function create()
     {
-        $zones = Zone::pluck('name','id');
-        return view('fixtures.create')->withZones($zones);
+        $zones = Zone::orderBy('name', 'asc')->pluck('name','id');
+        $clubs = Club::orderBy('name', 'asc')->pluck('name','id');
+        return view('admin.fixtures.create')->withZones($zones)->withClubs($clubs);
     }
 
     /**
@@ -66,8 +68,9 @@ class AdminFixtureController extends Controller
     public function edit($id)
     {
         $fixture = Fixture::findOrFail($id);
-        $zones = Zone::pluck('name','id');
-        return view('fixtures.edit')->withFixture($fixture)->withZones($zones);
+        $zones = Zone::orderBy('name', 'asc')->pluck('name','id');
+        $clubs = Club::orderBy('name', 'asc')->pluck('name','id');
+        return view('admin.fixtures.edit')->withFixture($fixture)->withZones($zones)->withClubs($clubs);
     }
 
     /**

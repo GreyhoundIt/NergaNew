@@ -19,7 +19,7 @@ class AdminZoneController extends Controller
     public function index()
     {
         $zones = Zone::all();
-        return view('zones.index')->withZones($zones);
+        return view('admin.zones.index')->withZones($zones);
     }
 
     /**
@@ -30,7 +30,7 @@ class AdminZoneController extends Controller
     public function create()
     {
         $leagues = League::pluck('name','id');
-        return view('zones.create')->withLeagues($leagues);
+        return view('admin.zones.create')->withLeagues($leagues);
     }
 
 
@@ -67,7 +67,7 @@ class AdminZoneController extends Controller
     {
         $zone = Zone::findOrFail($id);
         $leagues = League::pluck('name','id');
-        return view('zones.edit')->withZone($zone)->withLeagues($leagues);
+        return view('admin.zones.edit')->withZone($zone)->withLeagues($leagues);
     }
 
 

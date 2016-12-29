@@ -19,6 +19,7 @@ Route::get('/zone', function () {
 });
 
 Route::resource('/admin/zone','AdminZoneController');
+Route::resource('/admin/club','AdminclubController');
 Route::resource('/admin/fixture','AdminFixtureController');
 Route::resource('/user/team','UserTeamSheetController');
 Route::auth();

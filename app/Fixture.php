@@ -5,16 +5,25 @@ namespace App;
 use Illuminate\Database\Eloquent\Model;
 use Carbon\Carbon;
 use App\Http\Requests;
+use Illuminate\Support\Facades\DB;
 use Thujohn\Twitter\Facades\Twitter;
+
 
 class Fixture extends Model
 {
-    protected $fillable =['name', 'zone_id', 'postcode', 'fixture_date', 'fixture_time', 'start_sheet_skeleton', 'start_sheet_official', 'team_overall', 'person_overall'];
+    protected $fillable =['zone_id', 'club_id', 'fixture_date', 'fixture_time', 'start_sheet_skeleton', 'start_sheet_official', 'team_overall', 'person_overall'];
     protected $dates = ['fixture_date'];
 
     public function zone()
     {
         return $this->belongsTo(Zone::class);
+    }
+
+    public function getClub()
+    {
+        $clubs = Club::select('name', 'post_code')
+            ->where('id', '=' , $this->club_id)->get();
+        return $clubs;
     }
 
     public function teamSheets()

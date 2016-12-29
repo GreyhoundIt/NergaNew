@@ -15,8 +15,7 @@ class CreateFixturesTable extends Migration
         Schema::create('fixtures', function (Blueprint $table) {
             $table->increments('id');
             $table->integer('zone_id')->unsigned()->index();
-            $table->string('name');
-            $table->string('postcode')->nullable();
+            $table->integer('club_id')->unsigned()->index();
             $table->date('fixture_date')->nullable();
             $table->string('fixture_time')->nullable();
             $table->string('start_sheet_skeleton')->nullable();

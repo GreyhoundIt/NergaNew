@@ -19,20 +19,19 @@
                     <h1>Update a fixture</h1>
                     {!! Form::model($fixture,  ['route' => ['admin.fixture.update',$fixture->id], 'files' => true, 'method'=>'patch']) !!}
 
-                    {{ Form::label('name', 'Name:') }}
-                    {{ Form::text('name', null, array('class' => 'form-control')) }}
+
+                    {{ Form::label('club_id', 'Host Club:') }}
+                    {{ Form::select('club_id' , $clubs) }}
 
                     {{ Form::label('zone_id', 'Zone:') }}
-                    {{Form::select('zone_id' , $zones) }}
+                    {{ Form::select('zone_id' , $zones) }}
 
-                    {{ Form::label('postcode', 'Postcode:') }}
-                    {{ Form::text('postcode', null, array('class' => 'form-control')) }}
 
                     {{ Form::label('fixture_date', 'Date:') }}
                     {{ Form::date('fixture_date', \Carbon\Carbon::now()) }}
 
                     {{ Form::label('fixture_time', 'Start Time:') }}
-                    {{ Form::text('fixture_time', null, array('class' => 'form-control')) }}
+                    {{ Form::text('fixture_time', null, array('class' => '')) }}
                     <div style="background-color: gray">
                     {{ Form::label('start_sheet_skeleton', 'Start sheet skeleton:') }}
                     {{ Form::file('start_sheet_skeleton', array('class' => 'form-control', 'style'=>"background-color: gray" ,'accept'=>'application/pdf')) }}

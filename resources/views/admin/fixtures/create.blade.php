@@ -26,7 +26,7 @@
                     {{ Form::select('zone_id' , $zones) }}
 
                     {{ Form::label('fixture_date', 'Date:') }}
-                    {{ Form::date('fixture_date', \Carbon\Carbon::now()) }}
+                    {{ Form::time('fixture_date', \Carbon\Carbon::now()->format('H:i')) }}
 
                     {{ Form::label('fixture_time', 'Start Time:') }}
                     {{ Form::text('fixture_time', null, array('class' => '')) }}

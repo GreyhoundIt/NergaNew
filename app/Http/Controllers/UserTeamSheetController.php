@@ -2,10 +2,17 @@
 
 namespace App\Http\Controllers;
 
+use App\Club;
+use App\Fixture;
+use App\Zone;
 use App\Http\Requests\TeamCreateRequest;
+use App\TeamSheet;
 use Illuminate\Http\Request;
 
 use App\Http\Requests;
+use Illuminate\Support\Facades\Auth;
+use Illuminate\Support\Facades\DB;
+use Illuminate\Support\Facades\Session;
 
 class UserTeamSheetController extends Controller
 {
@@ -19,6 +26,33 @@ class UserTeamSheetController extends Controller
         //
     }
 
+
+    public function createOrUpdate(Fixture $id)
+    {
+        if (Auth::check())
+        {
+            $userId = Auth::id();
+
+            $fixtureId = $id->id;
+            // The user is logged in...
+            $teamSheet = DB::table('team_sheets')
+                ->where('user_id', '=' , $userId)
+                ->where('fixture_id', '=', $fixtureId)
+                ->first();
+            if(!$teamSheet){
+                Session::put('fixtureId',[$fixtureId]);
+                return redirect()->action('UserTeamSheetController@create');
+            }
+            else{
+                $teamsheetId = $teamSheet->id;
+                return redirect()->action(
+                    'UserTeamSheetController@edit', ['id' => $teamsheetId]
+                );
+            }
+        }
+    }
+    
+    
     /**
      * Show the form for creating a new resource.
      *
@@ -26,9 +60,12 @@ class UserTeamSheetController extends Controller
      */
     public function create()
     {
-
-        //$zones = Zone::pluck('name','id');
-        return view('teamsheets.create');
+        $fixture = (Session('fixtureId'));
+        $userid = Auth::id();
+        $user = Auth::user();
+        $clubid = $user->club_id;
+        $club = Club::where('id', '=', $clubid)->first();
+        return view('teamsheets.create')->withFixture($fixture)->withUserid($userid)->withClub($club);
     }
 
     /**
@@ -39,7 +76,12 @@ class UserTeamSheetController extends Controller
      */
     public function store(TeamCreateRequest $request)
     {
-        dd($request);
+        $input = $request->all();
+        $fixture = Fixture::find($input['fixture_id']);
+        TeamSheet::create($input);
+        Session::forget('fixtureId');
+        Session::flash('success', "Team successfully submitted");
+        return redirect()->action( 'UserZoneController@show', ['id' => $fixture->zone_id]);
     }
 
     /**
@@ -61,7 +103,11 @@ class UserTeamSheetController extends Controller
      */
     public function edit($id)
     {
-        //
+        $user = Auth::user();
+        $teamsheet = TeamSheet::findOrFail($id);
+        $clubid = $user->club_id;
+        $club = Club::where('id', '=', $clubid)->first();
+        return view('teamsheets.edit')->withTeamsheet($teamsheet)->withClub($club);
     }
 
     /**
@@ -73,7 +119,12 @@ class UserTeamSheetController extends Controller
      */
     public function update(Request $request, $id)
     {
-        //
+        $teamsheet = TeamSheet::findOrFail($id);
+        $input = $request->all();
+        $fixture = Fixture::find($input['fixture_id']);
+        $teamsheet->fill($input)->save();
+        Session::flash('success', "Team successfully updated");
+        return redirect()->action( 'UserZoneController@show', ['id' => $fixture->zone_id]);
     }
 
     /**
@@ -84,6 +135,10 @@ class UserTeamSheetController extends Controller
      */
     public function destroy($id)
     {
-        //
+        $teamsheet = TeamSheet::findOrFail($id);
+        $fixture =  Fixture::find($teamsheet->fixture_id);
+        $teamsheet->delete();
+        Session::flash('success', "Team entry deleted");
+        return redirect()->action( 'UserZoneController@show', ['id' => $fixture->zone_id]);
     }
 }

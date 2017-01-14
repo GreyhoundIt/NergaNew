@@ -16,11 +16,10 @@
                             </ul>
                         </div>
                     @endif
-                    <h1>Enter your Team</h1>
+                    <h1>Update your Team</h1>
                         {{ $club->name }}
 
-                    {!! Form::open(array('route' => 'user.team.store')) !!}
-
+                    {!! Form::model($teamsheet,  ['route' => ['user.team.update',$teamsheet->id], 'method'=>'patch']) !!}
                     <div class="row player odd">
                         <div class="col-md-4">
                         {{ Form::label('p1_first_name', 'Player 1 First Name:') }}
@@ -172,20 +171,25 @@
                     </div>
                     <div class="row player">
                         <div class="col-md-4">
-                            {{ Form::hidden('fixture_id', $fixture[0], array('class' => 'form-control', )) }}
+                            {{ Form::hidden('fixture_id', null , array('class' => 'form-control', )) }}
                         </div>
                         <div class="col-md-4">
-                            {{ Form::hidden('user_id', $userid, array('class' => 'form-control')) }}
+                            {{ Form::hidden('user_id', null , array('class' => 'form-control')) }}
                         </div>
                         <div class="col-md-4">
-                            {{ Form::hidden('club', $club->name, array('class' => 'form-control')) }}
+                            {{ Form::hidden('club', null, array('class' => 'form-control')) }}
                         </div>
                     </div>
 
-
-
-
                     {{ Form::submit('Submit Team', array('class' => 'btn btn-default btn-lg btn-block btn-form')) }}
+                    {!! Form::close() !!}
+
+                <!-- Form to delete fixture -->
+                    {!! Form::open([
+                        'method' => 'DELETE',
+                        'route' => ['user.team.destroy', $teamsheet->id]
+                    ]) !!}
+                    {!! Form::submit('Delete this entry?', ['class' => 'btn btn-danger btn-lg btn-block btn-form']) !!}
                     {!! Form::close() !!}
 
                 </div>

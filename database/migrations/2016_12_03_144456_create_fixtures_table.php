@@ -16,7 +16,7 @@ class CreateFixturesTable extends Migration
             $table->increments('id');
             $table->integer('zone_id')->unsigned()->index();
             $table->integer('club_id')->unsigned()->index();
-            $table->date('fixture_date')->nullable();
+            $table->datetime('fixture_date')->nullable();
             $table->string('fixture_time')->nullable();
             $table->string('start_sheet_skeleton')->nullable();
             $table->string('start_sheet_official')->nullable();;

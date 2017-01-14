@@ -19,9 +19,12 @@ Route::get('/zone', function () {
 });
 
 Route::resource('/admin/zone','AdminZoneController');
-Route::resource('/admin/club','AdminclubController');
+Route::resource('/admin/club','AdminClubController');
 Route::resource('/admin/fixture','AdminFixtureController');
+
 Route::resource('/user/team','UserTeamSheetController');
+Route::get('user/teams/{id}', 'UserTeamSheetController@createOrUpdate');
+Route::resource('/user/zone','UserZoneController');
 Route::auth();
 
 Route::get('/home', 'HomeController@index');

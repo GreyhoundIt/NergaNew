@@ -19,12 +19,12 @@ class Fixture extends Model
         return $this->belongsTo(Zone::class);
     }
 
-    public function getClub()
+    public function club()
     {
-        $clubs = Club::select('name', 'post_code')
-            ->where('id', '=' , $this->club_id)->get();
-        return $clubs;
+        return $this->belongsTo(Club::class);
     }
+
+
 
     public function teamSheets()
     {

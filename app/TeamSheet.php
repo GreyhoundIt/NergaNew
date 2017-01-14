@@ -6,7 +6,7 @@ use Illuminate\Database\Eloquent\Model;
 
 class TeamSheet extends Model
 {
-    protected $guarded = ['fixture_id', 'user_id'];
+    protected $guarded = [];
 
     public function fixture()
     {

@@ -55,7 +55,7 @@
                     <li><a href="{{ url('/home') }}" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">INTER <span class="caret"></span></a>
                         <ul class="dropdown-menu">
                             @foreach($interZones as $zone)
-                                <li><a href="#">{{strtoupper($zone->name)}}</a></li>
+                                <li> {{link_to_action('UserZoneController@show', $title = strtoupper($zone->name), $parameters = [$zone->id], $attributes = [])}}</li>
                                 <li role="separator" class="divider"></li>
                             @endforeach
                         </ul>
@@ -64,7 +64,7 @@
                     <li><a href="{{ url('/home') }}" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">NERGA <span class="caret"></span></a>
                         <ul class="dropdown-menu">
                             @foreach($nergaZones as $zone)
-                                <li><a href="#">{{strtoupper($zone->name)}}</a></li>
+                                <li> {{link_to_action('UserZoneController@show', $title = strtoupper($zone->name), $parameters = [$zone->id], $attributes = [])}}</li>
                                 <li role="separator" class="divider"></li>
                             @endforeach
                         </ul>

@@ -9,6 +9,7 @@ use Illuminate\Http\Request;
 use Carbon\Carbon;
 use App\Http\Requests;
 use App\Helpers\FileHelper;
+use Maatwebsite\Excel\Facades\Excel;
 
 class AdminFixtureController extends Controller
 {
@@ -107,7 +108,23 @@ class AdminFixtureController extends Controller
         return redirect()->route('admin.fixture.index');
     }
 
-
+    public function generateFixtureTeamsheet($id)
+    {
+        $fixture = Fixture::findOrFail($id);
+        $teamsheetsArray = $fixture->teamsheets;
+        Excel::create($fixture->club->name, function($excel) use($teamsheetsArray, $fixture) {
+            // Set the title
+            $excel->setTitle('TeamSheet');
+            // Chain the setters
+            $excel->setCreator('Greyhound It')->setCompany('NERGA - GreyhoundIT');
+            $excel->setDescription('Teamsheet');
+                $excel->sheet($fixture->club->name, function ($sheet) use ($teamsheetsArray) {
+                $sheet->freezeFirstRow();
+                $sheet->setOrientation('landscape');
+                $sheet->fromArray($teamsheetsArray, NULL, 'A1');
+            });
+        })->store('xls',  storage_path('excel/exports'))->download('csv');
+    }
 
 
 

@@ -11,7 +11,7 @@ use Thujohn\Twitter\Facades\Twitter;
 
 class Fixture extends Model
 {
-    protected $fillable =['zone_id', 'club_id', 'fixture_date', 'fixture_time', 'start_sheet_skeleton', 'start_sheet_official', 'team_overall', 'person_overall'];
+    protected $fillable =['zone_id', 'club_id', 'fixture_date', 'fixture_time', 'bye_team','start_sheet_skeleton', 'start_sheet_official', 'team_overall', 'person_overall'];
     protected $dates = ['fixture_date'];
 
     public function zone()
@@ -55,7 +55,7 @@ class Fixture extends Model
             $file->move($destinationPath, $fileName);
             $path = $destinationPath . $fileName;
             // tweet that a file has been updated.
-            $this->sendFixtureUpdateTweet($fixture, $name);
+            // $this->sendFixtureUpdateTweet($fixture, $name);
             return $path;
         } else {
             return $oldData;

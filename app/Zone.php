@@ -38,7 +38,7 @@ class Zone extends Model
             $file->move($destinationPath, $fileName);
             $path = $destinationPath . $fileName;
             // tweat that a file has been updated.
-            $this->sendZoneUpdateTweet($zone, $name);
+           // $this->sendZoneUpdateTweet($zone, $name);
             return $path;
         } else {
             return $oldData;

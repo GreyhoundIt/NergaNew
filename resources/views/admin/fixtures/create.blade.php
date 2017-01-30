@@ -25,12 +25,11 @@
                     {{ Form::label('zone_id', 'Zone:') }}
                     {{ Form::select('zone_id' , $zones) }}
 
-                    {{ Form::label('fixture_date', 'Date:') }}
-                    {{ Form::time('fixture_date', \Carbon\Carbon::now()->format('H:i')) }}
+                    {{ Form::label('bye_team', 'None Playing Team:') }}
+                    {{ Form::text('bye_team', null, array('class' => 'form-control')) }}
 
-                    {{ Form::label('fixture_time', 'Start Time:') }}
-                    {{ Form::text('fixture_time', null, array('class' => '')) }}
-
+                    {{ Form::label('fixture_date', 'Date:(YYYY-MM-DD HH:MM:SS\)') }}
+                    {{ Form::text('fixture_date', \Carbon\Carbon::now()) }}
 
                     {{ Form::submit('Create Fixture', array('class' => 'btn btn-default btn-lg btn-block btn-form')) }}
                     {!! Form::close() !!}

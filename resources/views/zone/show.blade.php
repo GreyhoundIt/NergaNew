@@ -25,7 +25,6 @@
                         @if (Auth::user())
 
                             {{link_to_action('UserTeamSheetController@createOrUpdate', $title = "Submit / Edit Team", $parameters = [$next->id], $attributes = ['Class' => 'btn btn-success'])}}
-                            {{link_to_route('user.team.create')}}
                         @endif
                     @else
                         <span>All Fixtures are complete for this season</span>
@@ -37,9 +36,13 @@
                     <ul>
                         @foreach($fixtures as $fixture)
                             <li>{{$fixture->club->name}} ---
-                                Date: {{$fixture->fixture_date->toDayDateTimeString()}} </li>
+                                Date: {{$fixture->fixture_date->toDayDateTimeString()}}
+                            @if($fixture->bye_team) * {{ $fixture->bye_team }}
+                            @endif
+                            </li>
                         @endforeach
                     </ul>
+                    * None playing team at fixture
                 </div>
 
             </div>

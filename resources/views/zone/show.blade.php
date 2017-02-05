@@ -21,9 +21,8 @@
                             in {{$next->fixture_date->diffForHumans()}} {{$next->fixture_date->toDayDateTimeString()}}
                             Post Code: {{$next->club->post_code}}</span>
                         {{ link_to($next->club->website, $title = "Visit Website", $attributes = array("target"=>"_blank", 'Class' => 'btn btn-primary')) }}
-                        {{-- Todo change to logged in user --}}
-                        @if (Auth::user())
 
+                        @if (Auth::user() &&  (in_array($zone->id, $userzone)))
                             {{link_to_action('UserTeamSheetController@createOrUpdate', $title = "Submit / Edit Team", $parameters = [$next->id], $attributes = ['Class' => 'btn btn-success'])}}
                         @endif
                     @else

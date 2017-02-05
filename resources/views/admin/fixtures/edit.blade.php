@@ -24,7 +24,7 @@
 
 
                     {{ Form::label('fixture_date', 'Date:') }}
-                    {{ Form::text('fixture_date', \Carbon\Carbon::now()) }}
+                    {{ Form::text('fixture_date', null, array('class' => 'form-control')) }}
 
                     {{ Form::label('bye_team', 'None Playing Team:') }}
                     {{ Form::text('bye_team', null, array('class' => 'form-control')) }}
@@ -46,8 +46,8 @@
                         {{ Form::label('person_overall', 'Individual Overall:') }}
                         {{ Form::file('person_overall', array('class' => 'form-control', 'style'=>"background-color: mediumpurple", 'accept'=>'application/pdf')) }}
                     </div>
-                    {{ Form::submit('Update Fixture', array('class' => 'btn btn-default btn-lg btn-block btn-form')) }}
-                    {!! Html::linkRoute('admin.fixture.show', 'Cancel', array($fixture->id), array('class' => 'btn btn-warning btn-lg btn-block btn-form')) !!}
+                    {{ Form::submit('Update Fixture and Go to Update Zone', array('class' => 'btn btn-default btn-lg btn-block btn-form')) }}
+                    {!! Html::linkRoute('admin.fixture.index', 'Cancel', array($fixture->id), array('class' => 'btn btn-warning btn-lg btn-block btn-form')) !!}
                     {!! Form::close() !!}
 
                 <!-- Form to delete fixture -->

@@ -9,7 +9,7 @@
                     <ul>
                         @foreach($clubs as $club)
                             <li>Name:{{ $club->name }} PostCode:{{  $club->post_code }} Website: {{$club->website}}<br/>
-                                  <a href="{{ route('admin.club.edit' , $fixture->id) }}" class="btn btn-warning pull-right edit-btn" role="button">Edit Club</a></li>
+                                  <a href="{{ route('admin.club.edit' , $club->id) }}" class="btn btn-warning pull-right edit-btn" role="button">Edit Club</a></li>
                         @endforeach
                     </ul>
                 </div>

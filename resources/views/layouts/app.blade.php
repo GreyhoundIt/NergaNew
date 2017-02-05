@@ -90,6 +90,11 @@
 
                             <ul class="dropdown-menu" role="menu">
                                 <li><a href="{{ url('/logout') }}"><i class="fa fa-btn fa-sign-out"></i>Logout</a></li>
+                                @if(Auth::user()->isAdmin ==1)
+                                    <li><a href="{{ url('/admin/fixture') }}"><i class="fa fa-btn fa-calendar-times-o"></i>Admin Fixtures</a></li>
+                                    <li><a href="{{ url('/admin/club') }}"><i class="fa fa-btn fa-smile-o"></i>Admin Clubs</a></li>
+                                    <li><a href="{{ url('/admin/zone') }}"><i class="fa fa-btn fa-trophy"></i>Admin Zones</a></li>
+                                @endif
                             </ul>
                         </li>
                     @endif

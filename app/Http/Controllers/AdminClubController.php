@@ -41,7 +41,7 @@ class AdminClubController extends Controller
     {
         $club = $request->all();
         Club::create($club);
-        return redirect()->route(admin.club.index);
+        return redirect()->route('admin.club.index');
     }
 
     /**
@@ -64,7 +64,7 @@ class AdminClubController extends Controller
     public function edit($id)
     {
         $club = Club::findOrFail($id);
-        return view(admin.club.edit);
+        return view('admin.clubs.edit')->withClub($club);
     }
 
     /**

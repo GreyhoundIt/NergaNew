@@ -6,12 +6,22 @@
                 <?php echo View::make('partials.hero') ?>
                 <div class="inner-content col-md-12">
                     <h1>All Clubs</h1>
-                    <ul>
+                    <table class="table table-hover">
+                        <tr>
+                            <th>Name</th>
+                            <th>Post Code</th>
+                            <th>Website</th>
+                            <th></th>
+                        </tr>
                         @foreach($clubs as $club)
-                            <li>Name:{{ $club->name }} PostCode:{{  $club->post_code }} Website: {{$club->website}}<br/>
-                                  <a href="{{ route('admin.club.edit' , $club->id) }}" class="btn btn-warning pull-right edit-btn" role="button">Edit Club</a></li>
+                            <tr>
+                                <td>{{ $club->name }}</td>
+                                <td>{{ $club->post_code }}</td>
+                                <td>{{$club->website}}</td>
+                                <td><a href="{{ route('admin.club.edit' , $club->id) }}" class="btn btn-warning pull-right edit-btn" role="button">Edit Club</a></td>
+                            </tr>
                         @endforeach
-                    </ul>
+                    </table>
                 </div>
             </div>
         </div>

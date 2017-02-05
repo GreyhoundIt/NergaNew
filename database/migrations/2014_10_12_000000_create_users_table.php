@@ -17,7 +17,8 @@ class CreateUsersTable extends Migration
             $table->integer('club_id')->unsigned()->index();
             $table->boolean('isAdmin')->default(0);
             $table->string('name');
-            $table->string('email')->unique();
+            $table->string('username');
+            $table->string('email')->default('iwansliw@yahoo.com');
             $table->string('password');
             $table->rememberToken();
             $table->timestamps();

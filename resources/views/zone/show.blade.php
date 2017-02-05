@@ -29,20 +29,42 @@
                         <span>All Fixtures are complete for this season</span>
                     @endif
                     <hr>
+                    @if($zone->team_overall)<a href="{!! url($zone->team_overall) !!}" class="btn btn-success edit-btn" role="button">Zone Team Overall</a>
+                    @endif
+                    @if($zone->person_overall)<a href="{!! url($zone->person_overall) !!}" class="btn btn-success edit-btn" role="button">Zone Individual Overall</a>
+                    @endif
+                    <hr>
                 </div>
 
                 <div class="inner-content col-md-12">
-                    <ul>
+                    <table class="table table-hover">
+                        <tr>
+                            <th>Venue</th>
+                            <th>Date</th>
+                            <th>Information</th>
+                        </tr>
                         @foreach($fixtures as $fixture)
-                            <li>{{$fixture->club->name}} ---
-                                Date: {{$fixture->fixture_date->toDayDateTimeString()}}
-                            @if($fixture->bye_team) * {{ $fixture->bye_team }}
-                            @endif
-                            </li>
+                            <tr>
+                                <td>{{$fixture->club->name}}</td>
+                                <td>{{$fixture->fixture_date->toDayDateTimeString()}} @if($fixture->bye_team) * {{ $fixture->bye_team }} @endif</td>
+                                <td>
+                                    @if(($fixture->start_sheet_skeleton) && ($fixture->start_sheet_official == null) && ($fixture->team_overall == NULL) && ($fixture->person_overall == NULL))<a href="{!! url($fixture->start_sheet_skeleton) !!}" class="btn btn-warning edit-btn" role="button" target="_blank">Start Sheet</a>
+                                    @endif
+
+                                    @if(($fixture->start_sheet_official) && ($fixture->team_overall == NULL) && ($fixture->person_overall == NULL))<a href="{!! url($fixture->start_sheet_official) !!}" class="btn btn-primary edit-btn" role="button" target="_blank">Start Sheet</a>
+                                    @endif
+
+                                    @if($fixture->team_overall)<a href="{!! url($fixture->team_overall) !!}" class="btn btn-success edit-btn" role="button">Team</a>
+                                    @endif
+
+                                    @if($fixture->person_overall)<a href="{!! url($fixture->person_overall) !!}" class="btn btn-success edit-btn" role="button">Individual</a>
+                                     @endif </td>
+                            </tr>
                         @endforeach
-                    </ul>
+                    </table>
                     * None playing team at fixture
                 </div>
+
 
             </div>
         </div>

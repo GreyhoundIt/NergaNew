@@ -6,13 +6,27 @@
                 <?php echo View::make('partials.hero') ?>
                 <div class="inner-content col-md-12">
                     <h1>All Fixtures</h1>
-                    <ul>
+                    <table class="table table-hover">
+                        <tr>
+                            <th>Name</th>
+                            <th>Post Code</th>
+                            <th>Date</th>
+                            <th>League</th>
+                            <th>Time</th>
+                            <th></th>
+                        </tr>
+
                         @foreach($fixtures as $fixture)
-
-                            <li>Name: {{ $fixture->club->name }} Date:{{  $fixture->fixture_date->format('d/m/Y') }}  Post Code: {{ $fixture->club->post_code }} <br/>
-                                Date:{{  $fixture->fixture_date->diffForHumans() }} League: {{$fixture->zone->name}}   <a href="{{ route('admin.fixture.edit' , $fixture->id) }}" class="btn btn-warning pull-right edit-btn" role="button">Manage Fixture</a></li>
-
+                            <tr>
+                                <td>{{ $fixture->club->name }}</td>
+                                <td>{{ $fixture->club->post_code }}</td>
+                                <td>{{ $fixture->fixture_date->format('d/m/Y H:i') }}</td>
+                                <td>{{ $fixture->zone->name }}</td>
+                                <td>{{ $fixture->fixture_date->diffForHumans() }}</td>
+                                <td><a href="{{ route('admin.fixture.edit' , $fixture->id) }}" class="btn btn-warning pull-right edit-btn" role="button">Manage Fixture</a></td>
+                            </tr>
                         @endforeach
+                    </table>
                     </ul>
                 </div>
             </div>

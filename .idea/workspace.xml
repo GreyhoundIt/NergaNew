@@ -3,11 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="190208ae-950f-4336-ba7b-58592a497a64" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Club.php" afterPath="$PROJECT_DIR$/app/Club.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/AdminClubController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/AdminClubController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/admin/clubs/index.blade.php" afterPath="$PROJECT_DIR$/resources/views/admin/clubs/index.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/admin/fixtures/edit.blade.php" afterPath="$PROJECT_DIR$/resources/views/admin/fixtures/edit.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" afterPath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/admin/fixtures/index.blade.php" afterPath="$PROJECT_DIR$/resources/views/admin/fixtures/index.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/admin/zones/index.blade.php" afterPath="$PROJECT_DIR$/resources/views/admin/zones/index.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/zone/show.blade.php" afterPath="$PROJECT_DIR$/resources/views/zone/show.blade.php" />
     </list>
     <ignored path="NergaNew.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -35,17 +33,17 @@
       <file leaf-file-name="Fixture.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/Fixture.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
+            <state relative-caret-position="-336">
               <caret line="18" column="45" selection-start-line="18" selection-start-column="45" selection-end-line="18" selection-end-column="45" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="app.blade.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="app.blade.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/views/layouts/app.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="541">
+            <state relative-caret-position="373">
               <caret line="99" column="26" selection-start-line="99" selection-start-column="26" selection-end-line="99" selection-end-column="26" />
               <folding />
             </state>
@@ -55,8 +53,38 @@
       <file leaf-file-name="index.blade.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/views/admin/zones/index.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="192">
-              <caret line="8" column="38" selection-start-line="8" selection-start-column="38" selection-end-line="8" selection-end-column="38" />
+            <state relative-caret-position="120">
+              <caret line="5" column="12" selection-start-line="9" selection-start-column="20" selection-end-line="15" selection-end-column="25" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.blade.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/views/admin/fixtures/index.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="504">
+              <caret line="25" column="171" selection-start-line="25" selection-start-column="37" selection-end-line="25" selection-end-column="171" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="show.blade.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/resources/views/zone/show.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="525">
+              <caret line="33" column="143" selection-start-line="33" selection-start-column="143" selection-end-line="33" selection-end-column="143" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UserZoneController.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/UserZoneController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="662">
+              <caret line="36" column="9" selection-start-line="36" selection-start-column="9" selection-end-line="36" selection-end-column="9" />
               <folding />
             </state>
           </provider>
@@ -65,7 +93,7 @@
       <file leaf-file-name="edit.blade.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/views/admin/zones/edit.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-182">
+            <state relative-caret-position="528">
               <caret line="22" column="84" selection-start-line="21" selection-start-column="20" selection-end-line="22" selection-end-column="84" />
               <folding>
                 <marker date="1482430787000" expanded="true" signature="2200:2352" ph="..." />
@@ -79,33 +107,13 @@
       <file leaf-file-name="edit.blade.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/views/admin/fixtures/edit.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
+            <state relative-caret-position="72">
               <caret line="28" column="71" selection-start-line="28" selection-start-column="71" selection-end-line="28" selection-end-column="71" />
               <folding>
                 <marker date="1486306319000" expanded="true" signature="3180:3338" ph="..." />
                 <marker date="1486306319000" expanded="true" signature="3192:3336" ph="..." />
                 <marker date="1486306319000" expanded="true" signature="3193:3335" ph="..." />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="create.blade.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/views/admin/clubs/create.blade.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-278">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.blade.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/views/admin/clubs/index.blade.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="336">
-              <caret line="13" column="25" selection-start-line="13" selection-start-column="25" selection-end-line="13" selection-end-column="25" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -120,22 +128,15 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AdminClubController.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/AdminClubController.php">
+      <file leaf-file-name="AdminFixtureController.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/AdminFixtureController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="66" column="55" selection-start-line="66" selection-start-column="55" selection-end-line="66" selection-end-column="55" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Club.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Club.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-              <folding />
+            <state relative-caret-position="2112">
+              <caret line="87" column="54" selection-start-line="87" selection-start-column="54" selection-end-line="87" selection-end-column="54" />
+              <caret line="88" column="61" selection-start-line="88" selection-start-column="61" selection-end-line="88" selection-end-column="61" />
+              <folding>
+                <element signature="e#40#53#0#PHP" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -169,11 +170,9 @@
         <option value="$PROJECT_DIR$/storage/framework/views/6ad550b733c7df81d5b27fdd808c4b7d7d140ce1.php" />
         <option value="$PROJECT_DIR$/resources/views/auth/register.blade.php" />
         <option value="$PROJECT_DIR$/app/TeamSheet.php" />
-        <option value="$PROJECT_DIR$/resources/views/admin/zones/index.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/teamsheets/create.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/teamsheets/edit.blade.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/UserTeamSheetController.php" />
-        <option value="$PROJECT_DIR$/resources/views/admin/fixtures/index.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/partials/footer.blade.php" />
         <option value="$PROJECT_DIR$/app/Zone.php" />
         <option value="$PROJECT_DIR$/app/Http/routes.php" />
@@ -198,12 +197,14 @@
         <option value="$PROJECT_DIR$/config/database.php" />
         <option value="$PROJECT_DIR$/app/Providers/AppServiceProvider.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/UserZoneController.php" />
-        <option value="$PROJECT_DIR$/resources/views/zone/show.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/admin/fixtures/edit.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/admin/clubs/index.blade.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/AdminClubController.php" />
         <option value="$PROJECT_DIR$/app/Club.php" />
         <option value="$PROJECT_DIR$/resources/views/layouts/app.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/admin/zones/index.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/admin/fixtures/index.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/zone/show.blade.php" />
       </list>
     </option>
   </component>
@@ -308,10 +309,10 @@
     </include_path>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-1680" />
-    <option name="y" value="71" />
+    <option name="x" value="-1667" />
+    <option name="y" value="94" />
     <option name="width" value="1680" />
-    <option name="height" value="1050" />
+    <option name="height" value="1023" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -367,11 +368,7 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
+              <option name="myItemId" value="storage" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -390,10 +387,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="layouts" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -415,33 +408,7 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="admin" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="zones" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="NergaNew" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="NergaNew" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="admin" />
+              <option name="myItemId" value="zone" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -469,7 +436,7 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="config" />
+              <option name="myItemId" value="public" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -483,7 +450,67 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="nerga" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="nerga-green" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="NergaNew" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="NergaNew" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="nerga" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="nerga-green" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="results" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="NergaNew" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="NergaNew" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="nerga" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="nerga-green" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="overall" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -500,8 +527,7 @@
     <property name="nodejs_interpreter_path" value="/usr/local/bin/node" />
     <property name="js.buildTools.gulp.gulp_package_dir" value="/usr/local/lib/node_modules/gulp" />
     <property name="js-jscs-nodeInterpreter" value="/usr/local/bin/node" />
-    <property name="SearchEverywhereHistoryKey" value="adminc&#9;FILE&#9;file:///Users/matthew/Desktop/NergaNew/app/Http/Controllers/AdminClubController.php&#10;route&#9;FILE&#9;file:///Users/matthew/Desktop/NergaNew/app/Http/routes.php&#10;zone&#9;FILE&#9;file:///Users/matthew/Desktop/NergaNew/app/Http/Controllers/UserZoneController.php&#10;teamc&#9;FILE&#9;file:///Users/matthew/Desktop/NergaNew/app/Http/Controllers/UserTeamSheetController.php&#10;con&#9;FILE&#9;file:///Users/matthew/Desktop/NergaNew/app/Http/Controllers/AdminFixtureController.php&#10;user&#9;FILE&#9;file:///Users/matthew/Desktop/NergaNew/app/User.php&#10;log&#9;FILE&#9;file:///Users/matthew/Desktop/NergaNew/resources/views/auth/login.blade.php&#10;Pro&#9;FILE&#9;file:///Users/matthew/Desktop/NergaNew/app/Providers/AppServiceProvider.php&#10;z&#9;FILE&#9;file:///Users/matthew/Desktop/NergaNew/app/Zone.php&#10;login&#9;FILE&#9;file:///Users/matthew/Desktop/NergaNew/resources/views/auth/login.blade.php&#10;auth&#9;FILE&#9;file:///Users/matthew/Desktop/NergaNew/app/Http/Controllers/Auth/AuthController.php&#10;club&#9;FILE&#9;file:///Users/matthew/Desktop/NergaNew/database/seeds/ClubTableSeeder.php&#10;app.php&#9;FILE&#9;file:///Users/matthew/Desktop/NergaNew/config/app.php&#10;rou&#9;FILE&#9;file:///Users/matthew/Desktop/NergaNew/app/Http/routes.php&#10;zo&#9;null&#9;null&#10;adf&#9;FILE&#9;file:///Users/matthew/Desktop/NergaNew/app/Http/Controllers/AdminFixtureController.php&#10;zon&#9;FILE&#9;file:///Users/matthew/Desktop/NergaNew/app/Http/Controllers/UserZoneController.php&#10;fi&#9;FILE&#9;file:///Users/matthew/Desktop/NergaNew/app/Fixture.php&#10;fixt&#9;FILE&#9;file:///Users/matthew/Desktop/NergaNew/app/Http/Controllers/AdminFixtureController.php&#10;team&#9;null&#9;null&#10;cont&#9;FILE&#9;file:///Users/matthew/Desktop/NergaNew/app/Http/Controllers/AdminFixtureController.php&#10;teamsheet/c&#9;FILE&#9;file:///Users/matthew/Desktop/NergaNew/resources/views/teamsheets/create.blade.php&#10;tea&#9;null&#9;null&#10;h1&#9;FILE&#9;file:///Users/matthew/Desktop/NergaNew/vendor/symfony/console/Tests/Fixtures/application_renderexception_doublewidth1.txt&#10;getClub&#9;null&#9;null&#10;fi\&#9;FILE&#9;file:///Users/matthew/Desktop/NergaNew/app/Fixture.php&#10;routes&#9;FILE&#9;file:///Users/matthew/Desktop/NergaNew/app/Http/routes.php&#10;app&#9;FILE&#9;file:///Users/matthew/Desktop/NergaNew/config/app.php&#10;env&#9;FILE&#9;file:///Users/matthew/Desktop/NergaNew/.env&#10;fixtur&#9;FILE&#9;file:///Users/matthew/Desktop/NergaNew/app/Fixture.php&#10;ro&#9;FILE&#9;file:///Users/matthew/Desktop/NergaNew/app/Http/routes.php&#10;tEam&#9;FILE&#9;file:///Users/matthew/Desktop/NergaNew/app/TeamSheet.php" />
-    <property name="FullScreen" value="true" />
+    <property name="SearchEverywhereHistoryKey" value="z&#9;FILE&#9;file:///Users/matthew/Desktop/NergaNew/app/Http/Controllers/UserZoneController.php&#10;fix&#9;null&#9;null&#10;f&#9;FILE&#9;file:///Users/matthew/Desktop/NergaNew/app/Http/Controllers/AdminFixtureController.php&#10;adminc&#9;FILE&#9;file:///Users/matthew/Desktop/NergaNew/app/Http/Controllers/AdminClubController.php&#10;route&#9;FILE&#9;file:///Users/matthew/Desktop/NergaNew/app/Http/routes.php&#10;zone&#9;FILE&#9;file:///Users/matthew/Desktop/NergaNew/app/Http/Controllers/UserZoneController.php&#10;teamc&#9;FILE&#9;file:///Users/matthew/Desktop/NergaNew/app/Http/Controllers/UserTeamSheetController.php&#10;con&#9;FILE&#9;file:///Users/matthew/Desktop/NergaNew/app/Http/Controllers/AdminFixtureController.php&#10;user&#9;FILE&#9;file:///Users/matthew/Desktop/NergaNew/app/User.php&#10;log&#9;FILE&#9;file:///Users/matthew/Desktop/NergaNew/resources/views/auth/login.blade.php&#10;Pro&#9;FILE&#9;file:///Users/matthew/Desktop/NergaNew/app/Providers/AppServiceProvider.php&#10;login&#9;FILE&#9;file:///Users/matthew/Desktop/NergaNew/resources/views/auth/login.blade.php&#10;auth&#9;FILE&#9;file:///Users/matthew/Desktop/NergaNew/app/Http/Controllers/Auth/AuthController.php&#10;club&#9;FILE&#9;file:///Users/matthew/Desktop/NergaNew/database/seeds/ClubTableSeeder.php&#10;app.php&#9;FILE&#9;file:///Users/matthew/Desktop/NergaNew/config/app.php&#10;rou&#9;FILE&#9;file:///Users/matthew/Desktop/NergaNew/app/Http/routes.php&#10;zo&#9;null&#9;null&#10;adf&#9;FILE&#9;file:///Users/matthew/Desktop/NergaNew/app/Http/Controllers/AdminFixtureController.php&#10;zon&#9;FILE&#9;file:///Users/matthew/Desktop/NergaNew/app/Http/Controllers/UserZoneController.php&#10;fi&#9;FILE&#9;file:///Users/matthew/Desktop/NergaNew/app/Fixture.php&#10;fixt&#9;FILE&#9;file:///Users/matthew/Desktop/NergaNew/app/Http/Controllers/AdminFixtureController.php&#10;team&#9;null&#9;null&#10;cont&#9;FILE&#9;file:///Users/matthew/Desktop/NergaNew/app/Http/Controllers/AdminFixtureController.php&#10;teamsheet/c&#9;FILE&#9;file:///Users/matthew/Desktop/NergaNew/resources/views/teamsheets/create.blade.php&#10;tea&#9;null&#9;null&#10;h1&#9;FILE&#9;file:///Users/matthew/Desktop/NergaNew/vendor/symfony/console/Tests/Fixtures/application_renderexception_doublewidth1.txt&#10;getClub&#9;null&#9;null&#10;fi\&#9;FILE&#9;file:///Users/matthew/Desktop/NergaNew/app/Fixture.php&#10;routes&#9;FILE&#9;file:///Users/matthew/Desktop/NergaNew/app/Http/routes.php&#10;app&#9;FILE&#9;file:///Users/matthew/Desktop/NergaNew/config/app.php&#10;env&#9;FILE&#9;file:///Users/matthew/Desktop/NergaNew/.env&#10;fixtur&#9;FILE&#9;file:///Users/matthew/Desktop/NergaNew/app/Fixture.php&#10;ro&#9;FILE&#9;file:///Users/matthew/Desktop/NergaNew/app/Http/routes.php&#10;tEam&#9;FILE&#9;file:///Users/matthew/Desktop/NergaNew/app/TeamSheet.php" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -607,15 +633,15 @@
       <workItem from="1485073169668" duration="1310000" />
       <workItem from="1485204331433" duration="3627000" />
       <workItem from="1485802182523" duration="6205000" />
-      <workItem from="1486285816284" duration="14953000" />
+      <workItem from="1486285816284" duration="19582000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="165691000" />
+    <option name="totallyTimeSpent" value="170320000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1680" y="71" width="1680" height="1050" extended-state="0" />
+    <frame x="-1667" y="94" width="1680" height="1023" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.1598513" order="4" side_tool="true" content_ui="tabs" />
@@ -627,7 +653,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32985386" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16949153" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.16949153" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39979124" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -652,7 +678,7 @@
       <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32985386" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17248255" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16949153" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.1598513" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18869048" sideWeight="0.8401487" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
@@ -955,50 +981,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/UserZoneController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="514">
-          <caret line="36" column="9" selection-start-line="36" selection-start-column="9" selection-end-line="36" selection-end-column="9" />
-          <folding>
-            <element signature="e#40#53#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/zone/show.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="25" column="192" selection-start-line="25" selection-start-column="192" selection-end-line="25" selection-end-column="192" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/admin/fixtures/index.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="12" column="242" selection-start-line="12" selection-start-column="242" selection-end-line="12" selection-end-column="242" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/AdminFixtureController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="48">
-          <caret line="11" column="36" selection-start-line="11" selection-start-column="36" selection-end-line="11" selection-end-column="36" />
-          <folding>
-            <element signature="e#40#53#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/routes.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="15" column="3" selection-start-line="15" selection-start-column="3" selection-end-line="15" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/admin/clubs/edit.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="912">
@@ -1039,10 +1021,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/admin/clubs/index.blade.php">
+    <entry file="file://$PROJECT_DIR$/resources/views/layouts/app.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="13" column="25" selection-start-line="13" selection-start-column="25" selection-end-line="13" selection-end-column="25" />
+        <state relative-caret-position="373">
+          <caret line="99" column="26" selection-start-line="99" selection-start-column="26" selection-end-line="99" selection-end-column="26" />
           <folding />
         </state>
       </provider>
@@ -1055,37 +1037,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/admin/fixtures/edit.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="28" column="71" selection-start-line="28" selection-start-column="71" selection-end-line="28" selection-end-column="71" />
-          <folding>
-            <marker date="1486306319000" expanded="true" signature="3180:3338" ph="..." />
-            <marker date="1486306319000" expanded="true" signature="3192:3336" ph="..." />
-            <marker date="1486306319000" expanded="true" signature="3193:3335" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Fixture.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="18" column="45" selection-start-line="18" selection-start-column="45" selection-end-line="18" selection-end-column="45" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/admin/zones/index.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="8" column="38" selection-start-line="8" selection-start-column="38" selection-end-line="8" selection-end-column="38" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/admin/zones/edit.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-182">
+        <state relative-caret-position="528">
           <caret line="22" column="84" selection-start-line="21" selection-start-column="20" selection-end-line="22" selection-end-column="84" />
           <folding>
             <marker date="1482430787000" expanded="true" signature="2200:2352" ph="..." />
@@ -1095,10 +1049,81 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/layouts/app.blade.php">
+    <entry file="file://$PROJECT_DIR$/resources/views/admin/clubs/index.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="541">
-          <caret line="99" column="26" selection-start-line="99" selection-start-column="26" selection-end-line="99" selection-end-column="26" />
+        <state relative-caret-position="312">
+          <caret line="13" column="25" selection-start-line="13" selection-start-column="25" selection-end-line="13" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/admin/fixtures/edit.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="28" column="71" selection-start-line="28" selection-start-column="71" selection-end-line="28" selection-end-column="71" />
+          <folding>
+            <marker date="1486306319000" expanded="true" signature="3180:3338" ph="..." />
+            <marker date="1486306319000" expanded="true" signature="3192:3336" ph="..." />
+            <marker date="1486306319000" expanded="true" signature="3193:3335" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/routes.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="15" column="3" selection-start-line="15" selection-start-column="3" selection-end-line="15" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/AdminFixtureController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2112">
+          <caret line="87" column="54" selection-start-line="87" selection-start-column="54" selection-end-line="87" selection-end-column="54" />
+          <caret line="88" column="61" selection-start-line="88" selection-start-column="61" selection-end-line="88" selection-end-column="61" />
+          <folding>
+            <element signature="e#40#53#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Fixture.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-336">
+          <caret line="18" column="45" selection-start-line="18" selection-start-column="45" selection-end-line="18" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/admin/zones/index.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="5" column="12" selection-start-line="9" selection-start-column="20" selection-end-line="15" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/UserZoneController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="662">
+          <caret line="36" column="9" selection-start-line="36" selection-start-column="9" selection-end-line="36" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/admin/fixtures/index.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="25" column="171" selection-start-line="25" selection-start-column="37" selection-end-line="25" selection-end-column="171" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/zone/show.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="33" column="143" selection-start-line="33" selection-start-column="143" selection-end-line="33" selection-end-column="143" />
           <folding />
         </state>
       </provider>

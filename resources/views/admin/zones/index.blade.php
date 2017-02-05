@@ -7,11 +7,21 @@
                 <?php echo View::make('partials.hero') ?>
                 <div class="inner-content col-md-12">
                     <h1>All Zones</h1>
-                    <ul>
+                    <table class="table table-hover">
+                        <tr>
+                            <th>Name</th>
+                            <th>League</th>
+                            <th></th>
+                        </tr>
                         @foreach($zones as $zone)
-                            <li>Name:{{ $zone->name }}   League: {{$zone->league->name}}   <a href="{{ route('admin.zone.edit' , $zone->id) }}" class="btn btn-warning pull-right edit-btn" role="button">Edit Zone</a></li>
+                            <tr>
+                                <td>{{ $zone->name }}</td>
+                                <td>{{$zone->league->name}}</td>
+                                <td><a href="{{ route('admin.zone.edit' , $zone->id) }}" class="btn btn-warning pull-right edit-btn" role="button">Edit Zone</a></td>
+                            </tr>
+
                         @endforeach
-                    </ul>
+                    </table>
                 </div>
             </div>
         </div>

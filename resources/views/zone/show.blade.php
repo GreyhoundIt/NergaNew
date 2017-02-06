@@ -29,9 +29,9 @@
                         <span>All Fixtures are complete for this season</span>
                     @endif
                     <hr>
-                    @if($zone->team_overall)<a href="{!! url($zone->team_overall) !!}" class="btn btn-success edit-btn" role="button">Zone Team Overall</a>
+                    @if($zone->team_overall)<a href="{!! url($zone->team_overall) !!}" class="btn btn-success edit-btn" role="button" target="_blank">Zone Team Overall</a>
                     @endif
-                    @if($zone->person_overall)<a href="{!! url($zone->person_overall) !!}" class="btn btn-success edit-btn" role="button">Zone Individual Overall</a>
+                    @if($zone->person_overall)<a href="{!! url($zone->person_overall) !!}" class="btn btn-success edit-btn" role="button" target="_blank">Zone Individual Overall</a>
                     @endif
                     <hr>
                 </div>
@@ -54,10 +54,10 @@
                                     @if(($fixture->start_sheet_official) && ($fixture->team_overall == NULL) && ($fixture->person_overall == NULL))<a href="{!! url($fixture->start_sheet_official) !!}" class="btn btn-primary edit-btn" role="button" target="_blank">Start Sheet</a>
                                     @endif
 
-                                    @if($fixture->team_overall)<a href="{!! url($fixture->team_overall) !!}" class="btn btn-success edit-btn" role="button">Team</a>
+                                    @if($fixture->team_overall)<a href="{!! url($fixture->team_overall) !!}" class="btn btn-success edit-btn" role="button" target="_blank">Team</a>
                                     @endif
 
-                                    @if($fixture->person_overall)<a href="{!! url($fixture->person_overall) !!}" class="btn btn-success edit-btn" role="button">Individual</a>
+                                    @if($fixture->person_overall)<a href="{!! url($fixture->person_overall) !!}" class="btn btn-success edit-btn" role="button" target="_blank">Individual</a>
                                      @endif </td>
                             </tr>
                         @endforeach

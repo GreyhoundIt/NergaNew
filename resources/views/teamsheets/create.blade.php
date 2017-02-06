@@ -31,7 +31,7 @@
                         </div>
                         <div class="col-md-4">
                         {{ Form::label('p1_handicap', 'Player 1 Handicap') }}
-                        {{ Form::number('p1_handicap', null, array('class' => 'form-control', 'step' =>'any')) }}
+                        {{ Form::number('p1_handicap', 0, array('class' => 'form-control', 'step' =>'any')) }}
                         </div>
                     </div>
 
@@ -46,7 +46,7 @@
                         </div>
                         <div class="col-md-4">
                             {{ Form::label('p2_handicap', 'Player 2 Handicap') }}
-                            {{ Form::number('p2_handicap', null, array('class' => 'form-control', 'step' =>'any')) }}
+                            {{ Form::number('p2_handicap', 0, array('class' => 'form-control', 'step' =>'any')) }}
                         </div>
                     </div>
 
@@ -61,7 +61,7 @@
                         </div>
                         <div class="col-md-4">
                             {{ Form::label('p3_handicap', 'Player 3 Handicap') }}
-                            {{ Form::number('p3_handicap', null, array('class' => 'form-control', 'step' =>'any')) }}
+                            {{ Form::number('p3_handicap', 0, array('class' => 'form-control', 'step' =>'any')) }}
                         </div>
                     </div>
 
@@ -76,7 +76,7 @@
                         </div>
                         <div class="col-md-4">
                             {{ Form::label('p4_handicap', 'Player 4 Handicap') }}
-                            {{ Form::number('p4_handicap', null, array('class' => 'form-control', 'step' =>'any')) }}
+                            {{ Form::number('p4_handicap', 0, array('class' => 'form-control', 'step' =>'any')) }}
                         </div>
                     </div>
 
@@ -91,7 +91,7 @@
                         </div>
                         <div class="col-md-4">
                             {{ Form::label('p5_handicap', 'Player 5 Handicap') }}
-                            {{ Form::number('p5_handicap', null, array('class' => 'form-control', 'step' =>'any')) }}
+                            {{ Form::number('p5_handicap', 0, array('class' => 'form-control', 'step' =>'any')) }}
                         </div>
                     </div>
 
@@ -106,7 +106,7 @@
                         </div>
                         <div class="col-md-4">
                             {{ Form::label('p6_handicap', 'Player 6 Handicap') }}
-                            {{ Form::number('p6_handicap', null, array('class' => 'form-control', 'step' =>'any')) }}
+                            {{ Form::number('p6_handicap', 0, array('class' => 'form-control', 'step' =>'any')) }}
                         </div>
                     </div>
 
@@ -121,7 +121,7 @@
                         </div>
                         <div class="col-md-4">
                             {{ Form::label('p7_handicap', 'Player 7 Handicap') }}
-                            {{ Form::number('p7_handicap', null, array('class' => 'form-control', 'step' =>'any')) }}
+                            {{ Form::number('p7_handicap', 0, array('class' => 'form-control', 'step' =>'any')) }}
                         </div>
                     </div>
 
@@ -136,7 +136,7 @@
                         </div>
                         <div class="col-md-4">
                             {{ Form::label('p8_handicap', 'Player 8 Handicap') }}
-                            {{ Form::number('p8_handicap', null, array('class' => 'form-control', 'step' =>'any')) }}
+                            {{ Form::number('p8_handicap', 0, array('class' => 'form-control', 'step' =>'any')) }}
                         </div>
                     </div>
 
@@ -151,7 +151,7 @@
                         </div>
                         <div class="col-md-4">
                             {{ Form::label('g1_handicap', 'Guest 1 Handicap') }}
-                            {{ Form::number('g1_handicap', null, array('class' => 'form-control', 'step' =>'any')) }}
+                            {{ Form::number('g1_handicap', 0, array('class' => 'form-control', 'step' =>'any')) }}
                         </div>
                     </div>
 
@@ -166,7 +166,7 @@
                         </div>
                         <div class="col-md-4">
                             {{ Form::label('g2_handicap', 'Guest 2 Handicap') }}
-                            {{ Form::number('g2_handicap', null, array('class' => 'form-control', 'step' =>'any')) }}
+                            {{ Form::number('g2_handicap', 0, array('class' => 'form-control', 'step' =>'any')) }}
                         </div>
                     </div>
                     <div class="row player">

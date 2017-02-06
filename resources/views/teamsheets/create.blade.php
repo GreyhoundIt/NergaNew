@@ -20,7 +20,7 @@
                         {{ $club->name }}
 
                     {!! Form::open(array('route' => 'user.team.store')) !!}
-
+                    <input name="_token" type="hidden" value="{!! csrf_token() !!}" />
                     <div class="row player odd">
                         <div class="col-md-4">
                         {{ Form::label('p1_first_name', 'Player 1 First Name:') }}
@@ -181,9 +181,6 @@
                             {{ Form::hidden('club', $club->name, array('class' => 'form-control')) }}
                         </div>
                     </div>
-
-
-
 
                     {{ Form::submit('Submit Team', array('class' => 'btn btn-default btn-lg btn-block btn-form')) }}
                     {!! Form::close() !!}

@@ -171,10 +171,10 @@
                     </div>
                     <div class="row player">
                         <div class="col-md-4">
-                            {{ Form::hidden('fixture_id', $fixture[0], array('class' => 'form-control', )) }}
+                            {{ Form::hidden('fixture_id', (int)$fixture[0], array('class' => 'form-control', )) }}
                         </div>
                         <div class="col-md-4">
-                            {{ Form::hidden('user_id', $userid, array('class' => 'form-control')) }}
+                            {{ Form::hidden('user_id', (int)$userid, array('class' => 'form-control')) }}
                         </div>
                         <div class="col-md-4">
                             {{ Form::hidden('club', $club->name, array('class' => 'form-control')) }}

@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="190208ae-950f-4336-ba7b-58592a497a64" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/zone/show.blade.php" afterPath="$PROJECT_DIR$/resources/views/zone/show.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/teamsheets/create.blade.php" afterPath="$PROJECT_DIR$/resources/views/teamsheets/create.blade.php" />
     </list>
     <ignored path="NergaNew.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -38,10 +37,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="show.blade.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="show.blade.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/views/zone/show.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="528">
+            <state relative-caret-position="504">
               <caret line="57" column="42" selection-start-line="57" selection-start-column="42" selection-end-line="57" selection-end-column="42" />
               <folding />
             </state>
@@ -51,7 +50,7 @@
       <file leaf-file-name="UserZoneController.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/Http/Controllers/UserZoneController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="696">
+            <state relative-caret-position="618">
               <caret line="36" column="9" selection-start-line="36" selection-start-column="9" selection-end-line="36" selection-end-column="9" />
               <folding />
             </state>
@@ -93,8 +92,8 @@
       <file leaf-file-name="create.blade.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/views/teamsheets/create.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1746">
-              <caret line="153" column="114" selection-start-line="153" selection-start-column="27" selection-end-line="153" selection-end-column="114" />
+            <state relative-caret-position="120">
+              <caret line="168" column="63" selection-start-line="168" selection-start-column="63" selection-end-line="168" selection-end-column="63" />
               <folding />
             </state>
           </provider>
@@ -110,7 +109,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="2016_12_03_153943_create_team_sheet_table.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="2016_12_03_153943_create_team_sheet_table.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/database/migrations/2016_12_03_153943_create_team_sheet_table.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="594">
@@ -192,8 +191,8 @@
         <option value="$PROJECT_DIR$/resources/views/admin/fixtures/index.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/admin/clubs/index.blade.php" />
         <option value="$PROJECT_DIR$/config/app.php" />
-        <option value="$PROJECT_DIR$/resources/views/teamsheets/create.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/zone/show.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/teamsheets/create.blade.php" />
       </list>
     </option>
   </component>
@@ -718,12 +717,12 @@
       <workItem from="1485073169668" duration="1310000" />
       <workItem from="1485204331433" duration="3627000" />
       <workItem from="1485802182523" duration="6205000" />
-      <workItem from="1486285816284" duration="24360000" />
+      <workItem from="1486285816284" duration="24555000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="175098000" />
+    <option name="totallyTimeSpent" value="175293000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1667" y="94" width="1680" height="1023" extended-state="0" />
@@ -1145,14 +1144,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/UserZoneController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="696">
-          <caret line="36" column="9" selection-start-line="36" selection-start-column="9" selection-end-line="36" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/TeamSheet.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1177,22 +1168,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/database/migrations/2016_12_03_153943_create_team_sheet_table.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="594">
-          <caret line="45" column="11" selection-start-line="45" selection-start-column="11" selection-end-line="45" selection-end-column="67" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/teamsheets/create.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1746">
-          <caret line="153" column="114" selection-start-line="153" selection-start-column="27" selection-end-line="153" selection-end-column="114" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Requests/TeamCreateRequest.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-984">
@@ -1213,8 +1188,32 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/zone/show.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="528">
+        <state relative-caret-position="504">
           <caret line="57" column="42" selection-start-line="57" selection-start-column="42" selection-end-line="57" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/UserZoneController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="618">
+          <caret line="36" column="9" selection-start-line="36" selection-start-column="9" selection-end-line="36" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/teamsheets/create.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="168" column="63" selection-start-line="168" selection-start-column="63" selection-end-line="168" selection-end-column="63" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/migrations/2016_12_03_153943_create_team_sheet_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="594">
+          <caret line="45" column="11" selection-start-line="45" selection-start-column="11" selection-end-line="45" selection-end-column="67" />
           <folding />
         </state>
       </provider>

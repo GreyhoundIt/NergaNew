@@ -20,6 +20,6 @@ class TeamSheet extends Model
 
     public function setP1FirstName($value)
     {
-        $this->['p1_first_name'] = ucfirst($value);
+        $this->attributes['p1_first_name'] = title_case($value);
     }
 }

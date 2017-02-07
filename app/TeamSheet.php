@@ -20,6 +20,6 @@ class TeamSheet extends Model
 
     public function setP1FirstName($value)
     {
-        return ucfirst($value);
+        $this->['p1_first_name'] = ucfirst($value);
     }
 }

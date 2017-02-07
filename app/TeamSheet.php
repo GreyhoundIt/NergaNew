@@ -17,4 +17,9 @@ class TeamSheet extends Model
     {
         return $this->belongsTo(User::class);
     }
+
+    public function setP1FirstName($value)
+    {
+        return ucfirst($value);
+    }
 }

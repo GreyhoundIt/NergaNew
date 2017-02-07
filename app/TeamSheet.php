@@ -18,7 +18,7 @@ class TeamSheet extends Model
         return $this->belongsTo(User::class);
     }
 
-    public function setP1FirstName($value)
+    public function setP1FirstNameAttribute($value)
     {
         $this->attributes['p1_first_name'] = title_case($value);
     }

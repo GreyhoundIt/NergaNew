@@ -121,7 +121,7 @@ class AdminFixtureController extends Controller
                 $excel->sheet($fixture->club->name, function ($sheet) use ($teamsheetsArray) {
                 $sheet->freezeFirstRow();
                 $sheet->setOrientation('landscape');
-                $sheet->fromArray($teamsheetsArray, NULL, 'A1');
+                $sheet->fromArray(title_case($teamsheetsArray), NULL, 'A1');
             });
         })->store('xls',  storage_path('excel/exports'))->download('csv');
     }

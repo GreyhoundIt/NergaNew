@@ -107,12 +107,12 @@ class TeamSheet extends Model
         $this->attributes['p8_last_name'] = title_case($value);
     }
 
-    public function setPG1LastNameAttribute($value)
+    public function setG1LastNameAttribute($value)
     {
         $this->attributes['g1_last_name'] = title_case($value);
     }
 
-    public function setG1LastNameAttribute($value)
+    public function setG2LastNameAttribute($value)
     {
         $this->attributes['g2_last_name'] = title_case($value);
     }

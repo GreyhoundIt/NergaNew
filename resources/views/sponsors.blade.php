@@ -7,7 +7,7 @@
                 <?php echo View::make('partials.hero') ?>
                 <div class="inner-content col-md-12">
                     <h1>NERGA would like to thank our following sponsors</h1>
-                    <a href="http://www.rockliffehall.com/golf/"><img alt="Rockliffe Hall Hotel Golf and Spa" src="/images/rockliffe.png" /></a>
+                    <a href="http://www.rockliffehall.com/golf/"><img alt="Woodham Golf and Country Club" src="http://www.woodhamgolfandcountryclub.co.uk/wp-content/uploads/2015/03/wg_banner_2.jpg" width=" 100%"/></a>
 
                 </div>
                 <?php echo View::make('partials.footer') ?>

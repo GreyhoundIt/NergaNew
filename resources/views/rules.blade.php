@@ -14,7 +14,7 @@
                                 NERGA &#8211; 16 -28 handicaps .<br />
                                 INTER &#8211;   10-15 handicaps</li>
                             <li>The aims are to provide competitive and enjoyable golf for all high handicap  golfers, and to generate good income for participating Member Clubs.</li>
-                            <li>The Association shall be administered by 4 Officers - Chairman , Secretary , Treasurer and Competition Secretary and a Management Committee being one elected person from each Zone League.Officers to serve 2 years and to provide continuity the Chairman and Competition Secretary to be elected on odd number years and the Secretary and Treasurer on even number years.Elected Committee person shall serve till the next AGM (2014)</li>
+                            <li>The Association shall be administered by 5 Officers - Chairman , Secretary , Treasurer and Competition Secretary, Handicap Secretary and a Management Committee being one elected person from each Zone League.Officers to serve 2 years and to provide continuity the Chairman and Competition Secretary to be elected on odd number years and the Secretary and Treasurer on even number years.Elected Committee person shall serve till the next AGM (2014)</li>
                             <li>The AGM to be held November each year.</li>
                             <li>The Management Committee shall be empowered to run the Association with responsibilities for its Finances and Disciplinary matters and introduction / ammendment to Constitution and Rules.</li>
                             <li>All Officers and Committee members have a vote. In the event of deadlock the Chairman will have the casting vote.	</li>
@@ -57,9 +57,8 @@
                             <li>	INTER matches will be played off White Tees at 8 / 9 minute intervals in 3 balls. Some 2 balls maybe necessary
                                 at the front to balance total playing numbers.</li>
 
-                            <li>	Each team will consist of 8 players the best 7 scores counting for the team total. If two teams finish with
-                                equal points total then the best 8th score shall be used to determine the higher place.The team with the
-                                highest total shall be awarded 8 pts down to 1 pt.</li>
+                            <li>	Each team will consist of 8 players the best 7 scores counting for the team total. If two or more team are tied after taking the 8th player score into consideration, the best individual score will be used to determine the finishing position. If the best individual score is the same for the tied teams then the 2nd best individual score will be considered. Comparing individual scores will continue from 3rd through to 7th player to determine the winner.
+                                If all scores are exactly the same then the teams will be classed as being in a tie and will be awarded the same number of League points.</li>
 
                             <li>	Any Club fielding a team short of one or more players will be deducted 1 NERGA / INTER point.</li>
 
@@ -70,7 +69,7 @@
                                 determine the highest place player.The highest place player from each Clubwill be invited to the Finals day
                                 to contest the NERGA / INTER Individual Trophy.  In the event that the player is not available to attend then
                                 the Club to nominate a replacement to ensure all Clubs have a representative in the NERGA / INTER Individual
-                                Trophy Final.</li>
+                                Trophy Final. Players who are not the highest placed player in a club, but are in the top 10 players in the overall Inter or Rabbits classification will also be invited to compete for the Individual Championship at Finals Day</li>
 
                             <li>	NERGA / INTER  Club Championship. At the end of the season the Club with the highest NERGA / INTER points total will be
                                 the Zone League Champion and all Zone League Champions will be invited to contest the NERGA / INTER  Club

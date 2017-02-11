@@ -10,6 +10,31 @@
 
                     <div class="panel panel-primary center">
                         <div class="panel-heading">
+                            <h3 class="panel-title">2016</h3>
+                        </div>
+                        <div class="panel-body">
+                            <p><b>INTER Club Championship </b></br>
+
+                                Winners -  Ripon City</br>
+                                Runners-up Roseberry Grange</p>
+
+                            <p><b>Inter Individual Championship </b> </br>
+
+                                Winner - Robert Dove – Hunley Hotel</p>
+
+                            <p><b>  NERGA Club Championship </b> </br>
+
+                                Winners - Roseberry Grange</br>
+                                Runners-Up - Kirkbymoorside</p>
+
+                            <p><b>  NERGA Individual Championship </b> </br>
+
+                                Winner - Graham Nealan – Garesfield</p>
+                        </div>
+                    </div>
+
+                    <div class="panel panel-primary center">
+                        <div class="panel-heading">
                             <h3 class="panel-title">2015</h3>
                         </div>
                         <div class="panel-body">

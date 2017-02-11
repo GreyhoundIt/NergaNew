@@ -32,3 +32,5 @@ Route::get('/home', 'HomeController@index');
 Route::get('/rules', 'HomeController@rules');
 Route::get('/honours', 'HomeController@honours');
 Route::get('/sponsors', 'HomeController@sponsors');
+Route::get('/finals', 'HomeController@finals');
+Route::get('/links', 'HomeController@links');

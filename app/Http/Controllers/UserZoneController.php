@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Club;
+use App\Fixture;
 use App\Zone;
 use Carbon\Carbon;
 use Illuminate\Http\Request;
@@ -23,7 +24,14 @@ class UserZoneController extends Controller
         $next = $fixtures->filter(function ($fixture) {
             return $fixture['fixture_date'] > Carbon::now();
         });
+      //  dd($next);
         $next = $next->first();
+
+        $fortnight = Fixture::where('zone_id', '=' ,$id)
+            ->where('fixture_date', '>' , Carbon::now())
+            ->where('fixture_date', '<' , Carbon::now()->addDays(90))
+            ->get()->last();
+
 
         $userzone = [];
         if (Auth::user()) {
@@ -35,7 +43,7 @@ class UserZoneController extends Controller
                 $userzone [] = $userFixture->zone_id;
             }
         }
-        return view('zone.show')->withZone($zone)->withFixtures($fixtures)->withNext($next)->withUserzone($userzone);
+        return view('zone.show')->withZone($zone)->withFixtures($fixtures)->withNext($next)->withUserzone($userzone)->withFortnight($fortnight);
     }
 
 }

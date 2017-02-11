@@ -31,7 +31,7 @@
                     @endif
 
                 </div>
-                @if($fortnight)
+                @if($fortnight && $fortnight->club->id !== $next->club->id)
                     {{-- game in a fortnight --}}
                     <div class="inner-content col-md-12">
                         <span> Later fixture : {{$fortnight->club->name}}

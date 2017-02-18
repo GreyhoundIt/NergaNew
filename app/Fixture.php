@@ -6,6 +6,7 @@ use Illuminate\Database\Eloquent\Model;
 use Carbon\Carbon;
 use App\Http\Requests;
 use Illuminate\Support\Facades\DB;
+use Illuminate\Contracts\Filesystem\Filesystem;
 use Thujohn\Twitter\Facades\Twitter;
 
 

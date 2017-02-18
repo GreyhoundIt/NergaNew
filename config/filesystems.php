@@ -15,7 +15,7 @@ return [
     |
     */
 
-    'default' => 'local',
+    'default' => 's3',
 
     /*
     |--------------------------------------------------------------------------
@@ -56,10 +56,10 @@ return [
 
         's3' => [
             'driver' => 's3',
-            'key' => 'your-key',
-            'secret' => 'your-secret',
-            'region' => 'your-region',
-            'bucket' => 'your-bucket',
+            'key' => 'AKIAJAJ5FLQ7D3VCXOOA',
+            'secret' => 'tLqdRG8TvqCJXmgW5kEC2MzE6h5tTBiHSgXz4RCG',
+            'region' => 'eu-west-2',
+            'bucket' => 'nerga',
         ],
 
     ],

@@ -25,7 +25,7 @@ $units = 'metric';
 
 // Get OpenWeatherMap object. Don't use caching (take a look into Example_Cache.php to see how it works).
 $owm = new OpenWeatherMap("90d625c068e3f3d7818b9e4237871e21");
-$forecast = $owm->getWeatherForecast('Berlin', $units, $lang, '', 10);
+$forecast = $owm->getDailyWeatherForecast('Berlin', $units, $lang, '90d625c068e3f3d7818b9e4237871e21', 5);
 echo "EXAMPLE 1<hr />\n\n\n";
 
 echo "City: " . $forecast->city->name;
@@ -46,5 +46,7 @@ foreach ($forecast as $weather) {
     echo "Sun rise: " . $weather->sun->rise->format('d.m.Y H:i (e)');
     echo "<br />\n";
     echo "---";
-    echo "<br />\n";
+
+
+
 }

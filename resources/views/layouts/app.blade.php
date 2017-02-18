@@ -49,7 +49,6 @@
                 <!-- Left Side Of Navbar -->
                 <ul class="nav navbar-nav">
                     <li><a href="{{ url('/') }}">Home</a></li>
-                    <li><a href="{{ url('/home') }}">News</a></li>
                     <li><a href="{{ url('/finals') }}">Finals Day</a></li>
                     <li><a href="{{ url('/rules') }}">Rules</a></li>
                     <li><a href="{{ url('/home') }}" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">INTER <span class="caret"></span></a>

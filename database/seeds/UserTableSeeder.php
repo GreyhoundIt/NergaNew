@@ -43,10 +43,10 @@ class UserTableSeeder extends Seeder
            ['club_id' => '29','isAdmin' => '0' ,'name' => 'Filey', 'username' => 'Filey', 'password' => bcrypt('Filey2017'), 'created_at' => new DateTime, 'updated_at' => new DateTime ],
            ['club_id' => '30','isAdmin' => '0' ,'name' => 'ScarboroughNorth', 'username' => 'ScarboroughNorth', 'password' => bcrypt('Scarborough2017'), 'created_at' => new DateTime, 'updated_at' => new DateTime ],
            ['club_id' => '31','isAdmin' => '0' ,'name' => 'KPClub', 'username' => 'KPClub', 'password' => bcrypt('KPClub2017'), 'created_at' => new DateTime, 'updated_at' => new DateTime ],
-           ['club_id' => '32','isAdmin' => '0' ,'name' => 'ForrestPark', 'username' => 'ForrestPark', 'password' => bcrypt('Forest2017'), 'created_at' => new DateTime, 'updated_at' => new DateTime ],
+           ['club_id' => '32','isAdmin' => '0' ,'name' => 'ForestPark', 'username' => 'ForestPark', 'password' => bcrypt('Forest2017'), 'created_at' => new DateTime, 'updated_at' => new DateTime ],
            ['club_id' => '33','isAdmin' => '0' ,'name' => 'Easingwold', 'username' => 'Easingwold', 'password' => bcrypt('Easingwold2017'), 'created_at' => new DateTime, 'updated_at' => new DateTime ],
            ['club_id' => '34','isAdmin' => '0' ,'name' => 'MaltonAndNorton', 'username' => 'MaltonAndNorton', 'password' => bcrypt('MAN2017'), 'created_at' => new DateTime, 'updated_at' => new DateTime ],
-           ['club_id' => '35','isAdmin' => '0' ,'name' => 'HunleyHall', 'username' => 'HunleyHall', 'password' => bcrypt('Hunley2017'), 'created_at' => new DateTime, 'updated_at' => new DateTime ],
+           ['club_id' => '35','isAdmin' => '0' ,'name' => 'Hunley', 'username' => 'Hunley', 'password' => bcrypt('Hunley2017'), 'created_at' => new DateTime, 'updated_at' => new DateTime ],
            ['club_id' => '999','isAdmin' => '1' ,'name' => 'Iwan', 'username' => 'Iwan', 'password' => bcrypt('IwanNERGA2017'), 'created_at' => new DateTime, 'updated_at' => new DateTime ],
            ['club_id' => '999','isAdmin' => '1' ,'name' => 'Matthew', 'username' => 'Matthew', 'password' => bcrypt('MatthewNERGA2017'), 'created_at' => new DateTime, 'updated_at' => new DateTime ],
         ]);

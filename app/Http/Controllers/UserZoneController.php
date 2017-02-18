@@ -9,6 +9,7 @@ use Carbon\Carbon;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\DB;
+use Cmfcmf\OpenWeatherMap;
 
 use App\Http\Requests;
 
@@ -27,9 +28,13 @@ class UserZoneController extends Controller
       //  dd($next);
         $next = $next->first();
 
+        $forecast = $this->getFixtureWeather($next->club->post_code);
+
+       // dd($forecast);
+
         $fortnight = Fixture::where('zone_id', '=' ,$id)
             ->where('fixture_date', '>' , Carbon::now())
-            ->where('fixture_date', '<' , Carbon::now()->addDays(90))
+            ->where('fixture_date', '<' , Carbon::now()->addDays(14))
             ->get()->last();
 
 
@@ -43,7 +48,22 @@ class UserZoneController extends Controller
                 $userzone [] = $userFixture->zone_id;
             }
         }
-        return view('zone.show')->withZone($zone)->withFixtures($fixtures)->withNext($next)->withUserzone($userzone)->withFortnight($fortnight);
+        return view('zone.show')->withZone($zone)->withFixtures($fixtures)->withNext($next)->withUserzone($userzone)->withForecast($forecast)->withFortnight($fortnight);
     }
+
+    public function getFixtureWeather($location)
+    {
+        // Language of data (try your own language here!):
+        $lang = 'en';
+
+        // Units (can be 'metric' or 'imperial' [default]):
+        $units = 'metric';
+        // Get OpenWeatherMap object. Don't use caching (take a look into Example_Cache.php to see how it works).
+        $owm = new OpenWeatherMap("90d625c068e3f3d7818b9e4237871e21");
+        $forecast = $owm->getDailyWeatherForecast($location, $units, $lang, '90d625c068e3f3d7818b9e4237871e21', 5);
+        return $forecast;
+    }
+
+
 
 }

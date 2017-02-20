@@ -6,7 +6,11 @@ use Illuminate\Database\Eloquent\Model;
 use Carbon\Carbon;
 use App\Http\Requests;
 use Illuminate\Support\Facades\DB;
+use League\Flysystem\Filesystem;
+use League\Flysystem\FilesystemInterface;
 use Thujohn\Twitter\Facades\Twitter;
+use GrahamCampbell\Flysystem\Facades\Flysystem;
+
 
 
 class Fixture extends Model
@@ -39,12 +43,12 @@ class Fixture extends Model
             $file = $request->file($name);
             //set paths
             if(($name == 'start_sheet_skeleton')||($name == 'start_sheet_official')){
-                $destinationPath = $fixture->zone->league->name . '/' . $fixture->zone->name . '/' . $fixture->name . '/startsheets/' ;
+                $destinationPath = $fixture->zone->league->name . '/' . $fixture->zone->name . '/' . $fixture->id . '/startsheets/' ;
                 $destinationPath = strtolower($destinationPath);
                 //Convert whitespaces and underscore to dash
                 $destinationPath = preg_replace("/[\s_]/", "-", $destinationPath);
             }else{
-                $destinationPath = $fixture->zone->league->name . '/' . $fixture->zone->name . '/' . $fixture->name . '/results/';
+                $destinationPath = $fixture->zone->league->name . '/' . $fixture->zone->name . '/' . $fixture->id . '/results/';
                 $destinationPath = strtolower($destinationPath);
                 //Convert whitespaces and underscore to dash
                 $destinationPath = preg_replace("/[\s_]/", "-", $destinationPath);
@@ -52,7 +56,10 @@ class Fixture extends Model
             //Move Uploaded File
             $fileName = $file->getClientOriginalName();
             $fileName = time() . '-' .preg_replace("/[\s_]/", "-", $fileName);
-            $file->move($destinationPath, $fileName);
+            $stream = fopen($file->getRealPath(), 'r+');
+
+            Flysystem::connection('awss3')->writeStream($destinationPath . "/" . $fileName, $stream, ['visibility' => 'public']);
+           // $file->move($destinationPath, $fileName);
             $path = $destinationPath . $fileName;
             // tweet that a file has been updated.
             // $this->sendFixtureUpdateTweet($fixture, $name);

@@ -73,23 +73,23 @@
                                         * {{ $fixture->bye_team }} @endif</td>
                                 <td>
                                     @if(($fixture->start_sheet_skeleton) && ($fixture->start_sheet_official == null) && ($fixture->team_overall == NULL) && ($fixture->person_overall == NULL))
-                                        <a href="{!! url($fixture->start_sheet_skeleton) !!}"
+                                        <a href="https://s3.eu-west-2.amazonaws.com/nerga/{{($fixture->start_sheet_skeleton) }}"
                                            class="btn btn-warning edit-btn" role="button" target="_blank">Start
                                             Sheet</a>
                                     @endif
 
                                     @if(($fixture->start_sheet_official) && ($fixture->team_overall == NULL) && ($fixture->person_overall == NULL))
-                                        <a href="{!! url($fixture->start_sheet_official) !!}"
+                                        <a href="https://s3.eu-west-2.amazonaws.com/nerga/{{($fixture->start_sheet_official) }}"
                                            class="btn btn-primary edit-btn" role="button" target="_blank">Start
                                             Sheet</a>
                                     @endif
 
-                                    @if($fixture->team_overall)<a href="{!! url($fixture->team_overall) !!}"
+                                    @if($fixture->team_overall)<a href="https://s3.eu-west-2.amazonaws.com/nerga/{{ ($fixture->team_overall)}}"
                                                                   class="btn btn-success edit-btn" role="button"
                                                                   target="_blank">Team</a>
                                     @endif
 
-                                    @if($fixture->person_overall)<a href="{!! url($fixture->person_overall) !!}"
+                                    @if($fixture->person_overall)<a href="https://s3.eu-west-2.amazonaws.com/nerga/{{($fixture->person_overall) }}"
                                                                     class="btn btn-success edit-btn" role="button"
                                                                     target="_blank">Individual</a>
                                     @endif </td>

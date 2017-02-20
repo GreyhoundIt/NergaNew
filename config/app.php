@@ -149,6 +149,7 @@ return [
         Illuminate\View\ViewServiceProvider::class,
         Collective\Html\HtmlServiceProvider::class,
         'Thujohn\Twitter\TwitterServiceProvider',
+        'GrahamCampbell\Flysystem\FlysystemServiceProvider',
         Maatwebsite\Excel\ExcelServiceProvider::class,
 
         /*
@@ -208,6 +209,7 @@ return [
         'Html' => Collective\Html\HtmlFacade::class,
         'Twitter' => 'Thujohn\Twitter\Facades\Twitter',
         'Excel' => Maatwebsite\Excel\Facades\Excel::class,
+        'Flysystem' => 'GrahamCampbell\Flysystem\Facades\Flysystem',
 
     ],
 

@@ -55,11 +55,21 @@ return [
         ],
 
         's3' => [
-            'driver' => 's3',
-            'key' => '8888888',
-            'secret' => '88888',
-            'region' => 'eu-west-2',
-            'bucket' => 'nxxxx',
+            'driver'          => 'awss3',
+            'key'             => 'AKIAINZM6JQF4OQBFQIQ',
+            'secret'          => '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',
+            'bucket'          => 'nerga',
+            'region'          => 'eu-west-2',
+            'version'         => 'latest',
+            // 'bucket_endpoint' => false,
+            // 'calculate_md5'   => true,
+            'scheme'          => 'https',
+            // 'endpoint'        => 'your-url',
+            // 'prefix'          => 'your-prefix',
+            'visibility'      => 'public',
+            // 'pirate'          => false,
+            // 'eventable'       => true,
+            // 'cache'           => 'foo'
         ],
 
     ],

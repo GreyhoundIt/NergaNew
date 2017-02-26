@@ -5802,4 +5802,17 @@ footer {
 .fixturetext {
   font-size: 19px; }
 
+.pad-bot {
+  padding-bottom: 20px; }
+
+.weather-box {
+  background-color: rgba(54, 210, 203, 0.17);
+  border: 1px solid white;
+  padding: 10px;
+  min-height: 203px;
+  margin-bottom: 25px; }
+
+.negative-top {
+  margin-top: -40px; }
+
 /*# sourceMappingURL=app.css.map */

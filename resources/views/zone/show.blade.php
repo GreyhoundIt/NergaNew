@@ -18,32 +18,42 @@
 
                     {{--If we have a future fixture --}}
                     @if($next)
-                        <h3 class="text-center">Next Fixture</h3>
-                        <div class="col-md-8"><span class="fixturetext"> {{$next->club->name}}
-                                in {{$next->fixture_date->diffForHumans()}} {{$next->fixture_date->toDayDateTimeString()}}<br/>
-                                Post Code: {{$next->club->post_code}}</span>
-                        </div>
-                        <div class="col-md-4"> {{ link_to($next->club->website, $title = "Visit Website", $attributes = array("target"=>"_blank", 'Class' => 'btn btn-primary')) }}
-                        </div>
+                        <h3 class="text-center">Next Fixture: {{$next->club->name}}</h3>
+                        <h4 class="text-center">{{$next->fixture_date->diffForHumans()}} {{$next->fixture_date->toDayDateTimeString()}}</h4>
+                        <h5 class="text-center">Post Code: {{$next->club->post_code}}</h5>
+                        <p class="text-center pad-bot"> {{ link_to($next->club->website, $title = "Visit Website", $attributes = array("target"=>"_blank", 'Class' => 'btn btn-primary')) }}</p>
 
-
-
-                        @if (Auth::user() &&  (in_array($zone->id, $userzone)))<br/>
+                        @if (Auth::user() &&  (!in_array($zone->id, $userzone)))<br/>
                             @if($opening >$present)
-                                <div class="col-md-12 fixturetext"> Team entries will open at {{$opening->toDayDateTimeString()}}
-                                </div>
+                                <p class="text-center"> Team entries will open at {{$opening->toDayDateTimeString()}}
+                                </p>
                             @elseif($closing > $present && $opening < $present)
-                                <div class="col-md-8 fixturetext">Closing time for entries is {{$closing->toDayDateTimeString()}}</div>
-                                <div class="col-md-4">{{link_to_action('UserTeamSheetController@createOrUpdate', $title = "Submit / Edit Team", $parameters = [$next->id], $attributes = ['Class' => 'btn btn-success'])}}</div>
+                            <p class="text-center negative-top">{{link_to_action('UserTeamSheetController@createOrUpdate', $title = "Submit / Edit Team", $parameters = [$next->id], $attributes = ['Class' => 'btn btn-success'])}}</p>
+                                <p class="text-center">Closing time for entries is {{$closing->toDayDateTimeString()}}</p>
                             @elseif($closing < $present)
-                                <div class="col-md-12 fixturetext">Sorry entries closed at {{$closing->toDayDateTimeString()}}</div>
+                                <p class="text-center">Sorry entries closed at {{$closing->toDayDateTimeString()}}</p>
 
                             @endif
-
-
-
-
                         @endif
+
+
+                        @foreach($forecast as $weather)
+                            <div class="equal">
+                                <div class="col-md-2 pad-bot weather-box">
+                                    <p class="text-center">
+                                        <span class="text-center">{{$weather->time->day->format('d.m.Y')}}</span><br/>
+                                        <span class="text-center">{{ucwords($weather->weather->description)}}</span><br/>
+                                        <img class="text-center"
+                                             src="http://openweathermap.org/img/w/{{$weather->weather->icon}}.png"/><br/>
+                                        Temp: {{$weather->temperature}}<br/>
+                                        Wind: {{ucwords($weather->wind->direction->getDescription())}}
+                                        , {{ucwords($weather->wind->speed->getDescription())}}
+                                    </p>
+                                </div>
+                            </div>
+                        @endforeach
+
+
                     @else
                         <span>All Fixtures are complete for this season</span>
                     @endif

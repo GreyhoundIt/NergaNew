@@ -42,7 +42,6 @@ class UserZoneController extends Controller
             ->where('fixture_date', '<' , Carbon::now()->addDays(14))
             ->get()->last();
 
-
         $userzone = [];
         if (Auth::user()) {
             $club_id = Auth::user()->club_id;
@@ -66,7 +65,7 @@ class UserZoneController extends Controller
         $units = 'metric';
         // Get OpenWeatherMap object. Don't use caching (take a look into Example_Cache.php to see how it works).
         $owm = new OpenWeatherMap("90d625c068e3f3d7818b9e4237871e21");
-        $forecast = $owm->getDailyWeatherForecast($location, $units, $lang, '90d625c068e3f3d7818b9e4237871e21', 5);
+        $forecast = $owm->getDailyWeatherForecast($location, $units, $lang, '90d625c068e3f3d7818b9e4237871e21', 6);
         return $forecast;
     }
 

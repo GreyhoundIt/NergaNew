@@ -1,6 +1,5 @@
 @import "node_modules/bootstrap-sass/assets/stylesheets/bootstrap";
 
-
 /// Mixin printing a linear-gradient
 /// as well as a plain color fallback
 /// and the `-webkit-` prefixed declaration
@@ -14,17 +13,18 @@
 
 }
 
-$lightBlue : #a3daff;
-$mediumBlue : #1ec0ff;
-$darkBlue : #0080fe;
-$altBlue : #008c9e;
+$lightBlue: #a3daff;
+$mediumBlue: #1ec0ff;
+$darkBlue: #0080fe;
+$altBlue: #008c9e;
 
-body{
+body {
   @include linear-gradient($mediumBlue, $darkBlue);
   //background-color: $altBlue;
 }
+
 /// Heaader ////
-.navbar{
+.navbar {
   background-color: $mediumBlue;
   margin-bottom: 0px;
 
@@ -33,26 +33,30 @@ body{
 .navbar-default .navbar-nav > li > a {
   color: #ffffff;
 }
+
 .navbar-default .navbar-brand {
   color: #ffffff;
 }
 
-header{
-  padding:20px 0px 20px 10px;
-  margin:0px 0;
+header {
+  padding: 20px 0px 20px 10px;
+  margin: 0px 0;
   @include linear-gradient($mediumBlue, $darkBlue);
 }
-header h1{
+
+header h1 {
   padding-top: 50px;
   color: #FFFFFF;
 }
+
 ///Pages //
-.inner-content{
+.inner-content {
   background-color: white;
-  h1{
+  h1 {
     font-size: 32px;
   }
 }
+
 .leadpic {
   max-width: 100%;
   height: auto;
@@ -65,15 +69,16 @@ header h1{
   border-color: $mediumBlue;
 }
 
-.panel-body{
+.panel-body {
   font-size: 24px;
-  span{
+  span {
     font-weight: 600;
   }
 
 }
+
 ///Footer///
-footer{
+footer {
   min-height: 40px;
   background-color: $mediumBlue;
   padding-left: 20px;
@@ -83,30 +88,48 @@ footer{
 
 ///fixtures
 
-.fixtures, .overall{
+.fixtures, .overall {
   font-size: 16px;
   line-height: 1.8;
-  span{
+  span {
     padding-right: 5px;
   }
-  ul>li{
+  ul > li {
     list-style: none;
   }
 }
 
 ///TeamSheets///
 
-.player{
+.player {
   padding-bottom: 20px;
   padding-top: 10px;
 }
-.odd{
+
+.odd {
   background-color: #ddeaff;
 }
-.even{
+
+.even {
   background-color: #bdd5fc;
 }
 
-.fixturetext{
-font-size: 19px;
+.fixturetext {
+  font-size: 19px;
+}
+
+.pad-bot {
+  padding-bottom: 20px;
+}
+
+.weather-box {
+  background-color: rgba(54, 210, 203, 0.17);
+  border: 1px solid white;
+  padding: 10px;
+  min-height: 203px;
+  margin-bottom: 25px;
+}
+
+.negative-top{
+  margin-top: -40px;
 }

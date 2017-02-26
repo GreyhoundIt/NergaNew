@@ -3,7 +3,11 @@
 namespace App;
 
 use Illuminate\Database\Eloquent\Model;
+use Carbon\Carbon;
 use App\Http\Requests;
+use Illuminate\Support\Facades\DB;
+use League\Flysystem\Filesystem;
+use League\Flysystem\FilesystemInterface;
 use Thujohn\Twitter\Facades\Twitter;
 use GrahamCampbell\Flysystem\Facades\Flysystem;
 
@@ -42,7 +46,7 @@ class Fixture extends Model
                 $destinationPath = $fixture->zone->league->name . '/' . $fixture->zone->name . '/' . $fixture->id . '/startsheets/' ;
                 $destinationPath = strtolower($destinationPath);
                 //Convert whitespaces and underscore to dash
-                $destinationPath = preg_replace('/[\s_]/', "-", $destinationPath);
+                $destinationPath = preg_replace("/[\s_]/", "-", $destinationPath);
             }else{
                 $destinationPath = $fixture->zone->league->name . '/' . $fixture->zone->name . '/' . $fixture->id . '/results/';
                 $destinationPath = strtolower($destinationPath);

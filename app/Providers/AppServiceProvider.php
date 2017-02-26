@@ -13,9 +13,12 @@ class AppServiceProvider extends ServiceProvider
      *
      * @return void
      */
-    public function boot()
+    public function boot(UrlGenerator $url)
     {
-
+        if(env('APP_ENV') !== 'local')
+        {
+            $url->forceSchema('https');
+        }
 
         $this->interZones = Zone::where('league_id' , 1)->orderBy('name', 'asc')->get();
         $this->nergaZones = Zone::where('league_id' , 2)->orderBy('name', 'asc')->get();

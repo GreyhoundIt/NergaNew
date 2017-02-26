@@ -42,7 +42,7 @@
       <file leaf-file-name="flysystem.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/config/flysystem.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
+            <state relative-caret-position="624">
               <caret line="45" column="42" selection-start-line="45" selection-start-column="42" selection-end-line="45" selection-end-column="42" />
               <folding />
             </state>
@@ -528,12 +528,12 @@
       <workItem from="1486285816284" duration="32282000" />
       <workItem from="1486817318889" duration="20975000" />
       <workItem from="1487621052545" duration="1159000" />
-      <workItem from="1488107316462" duration="510000" />
+      <workItem from="1488107316462" duration="822000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="205664000" />
+    <option name="totallyTimeSpent" value="205976000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1673" y="96" width="1680" height="1023" extended-state="6" />
@@ -981,7 +981,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/config/flysystem.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
+        <state relative-caret-position="624">
           <caret line="45" column="42" selection-start-line="45" selection-start-column="42" selection-end-line="45" selection-end-column="42" />
           <folding />
         </state>

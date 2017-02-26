@@ -92,5 +92,16 @@ class Fixture extends Model
         }
     }
 
+    public static function fixtureClosingTime($fixture)
+    {
+        $fixtureDate =$fixture->fixture_date;
+       return  $fixtureDate->modify('last thursday 19:00');
+    }
+
+    public static function fixtureOpeningTime($fixture)
+    {
+        $fixtureDate =$fixture->fixture_date;
+        return  $fixtureDate->modify('-14 days 00:00');
+    }
 
 }

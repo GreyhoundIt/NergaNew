@@ -2,10 +2,12 @@
 
 namespace App;
 
+use Carbon\Carbon;
 use Illuminate\Database\Eloquent\Model;
 use App\Http\Requests;
 use Thujohn\Twitter\Facades\Twitter;
 use GrahamCampbell\Flysystem\Facades\Flysystem;
+
 
 class Zone extends Model
 {
@@ -63,6 +65,7 @@ class Zone extends Model
             Twitter::postTweet(['status' => $msg , 'format' => 'json']);
         }
     }
+
 
 
 

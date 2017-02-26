@@ -18,13 +18,31 @@
 
                     {{--If we have a future fixture --}}
                     @if($next)
-                        <span> Next fixture : {{$next->club->name}}
-                            in {{$next->fixture_date->diffForHumans()}} {{$next->fixture_date->toDayDateTimeString()}}
-                            Post Code: {{$next->club->post_code}}</span>
-                        {{ link_to($next->club->website, $title = "Visit Website", $attributes = array("target"=>"_blank", 'Class' => 'btn btn-primary')) }}
+                        <h3 class="text-center">Next Fixture</h3>
+                        <div class="col-md-8"><span class="fixturetext"> {{$next->club->name}}
+                                in {{$next->fixture_date->diffForHumans()}} {{$next->fixture_date->toDayDateTimeString()}}<br/>
+                                Post Code: {{$next->club->post_code}}</span>
+                        </div>
+                        <div class="col-md-4"> {{ link_to($next->club->website, $title = "Visit Website", $attributes = array("target"=>"_blank", 'Class' => 'btn btn-primary')) }}
+                        </div>
 
-                        @if (Auth::user() &&  (in_array($zone->id, $userzone)))
-                            {{link_to_action('UserTeamSheetController@createOrUpdate', $title = "Submit / Edit Team", $parameters = [$next->id], $attributes = ['Class' => 'btn btn-success'])}}
+
+
+                        @if (Auth::user() &&  (in_array($zone->id, $userzone)))<br/>
+                            @if($opening >$present)
+                                <div class="col-md-12 fixturetext"> Team entries will open at {{$opening->toDayDateTimeString()}}
+                                </div>
+                            @elseif($closing > $present && $opening < $present)
+                                <div class="col-md-8 fixturetext">Closing time for entries is {{$closing->toDayDateTimeString()}}</div>
+                                <div class="col-md-4">{{link_to_action('UserTeamSheetController@createOrUpdate', $title = "Submit / Edit Team", $parameters = [$next->id], $attributes = ['Class' => 'btn btn-success'])}}</div>
+                            @elseif($closing < $present)
+                                <div class="col-md-12 fixturetext">Sorry entries closed at {{$closing->toDayDateTimeString()}}</div>
+
+                            @endif
+
+
+
+
                         @endif
                     @else
                         <span>All Fixtures are complete for this season</span>
@@ -84,14 +102,16 @@
                                             Sheet</a>
                                     @endif
 
-                                    @if($fixture->team_overall)<a href="https://s3.eu-west-2.amazonaws.com/nerga/{{ ($fixture->team_overall)}}"
-                                                                  class="btn btn-success edit-btn" role="button"
-                                                                  target="_blank">Team</a>
+                                    @if($fixture->team_overall)<a
+                                            href="https://s3.eu-west-2.amazonaws.com/nerga/{{ ($fixture->team_overall)}}"
+                                            class="btn btn-success edit-btn" role="button"
+                                            target="_blank">Team</a>
                                     @endif
 
-                                    @if($fixture->person_overall)<a href="https://s3.eu-west-2.amazonaws.com/nerga/{{($fixture->person_overall) }}"
-                                                                    class="btn btn-success edit-btn" role="button"
-                                                                    target="_blank">Individual</a>
+                                    @if($fixture->person_overall)<a
+                                            href="https://s3.eu-west-2.amazonaws.com/nerga/{{($fixture->person_overall) }}"
+                                            class="btn btn-success edit-btn" role="button"
+                                            target="_blank">Individual</a>
                                     @endif </td>
                             </tr>
                         @endforeach

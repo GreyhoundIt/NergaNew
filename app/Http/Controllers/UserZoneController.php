@@ -26,8 +26,13 @@ class UserZoneController extends Controller
             return $fixture['fixture_date'] > Carbon::now();
         });
       //  dd($next);
+        /** @var Fixture $next */
         $next = $next->first();
-
+        /** @var date $nextclosing */
+        $closing = Fixture::fixtureClosingTime($next);
+        $opening = Fixture::fixtureOpeningTime($next);
+        //dd($opening);
+        $present =  Carbon::now();
         $forecast = $this->getFixtureWeather($next->club->post_code);
 
        // dd($forecast);
@@ -48,7 +53,8 @@ class UserZoneController extends Controller
                 $userzone [] = $userFixture->zone_id;
             }
         }
-        return view('zone.show')->withZone($zone)->withFixtures($fixtures)->withNext($next)->withUserzone($userzone)->withForecast($forecast)->withFortnight($fortnight);
+
+        return view('zone.show')->withZone($zone)->withFixtures($fixtures)->withNext($next)->withOpening($opening)->withClosing($closing)->withUserzone($userzone)->withForecast($forecast)->withFortnight($fortnight)->withPresent($present);
     }
 
     public function getFixtureWeather($location)

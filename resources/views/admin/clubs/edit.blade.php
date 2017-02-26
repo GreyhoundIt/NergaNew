@@ -45,7 +45,6 @@
             </div>
         </div>
     </div>
-    @else
-        <p> NOPE</p>
+
     @endif
 @endsection

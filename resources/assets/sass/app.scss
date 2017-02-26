@@ -11,6 +11,7 @@
   background: nth(nth($color-stops, 1), 1);
   background: -webkit-linear-gradient(legacy-direction($direction), $color-stops);
   background: linear-gradient($direction, $color-stops);
+
 }
 
 $lightBlue : #a3daff;
@@ -104,4 +105,8 @@ footer{
 }
 .even{
   background-color: #bdd5fc;
+}
+
+.fixturetext{
+font-size: 19px;
 }

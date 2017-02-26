@@ -4,6 +4,7 @@ namespace App\Providers;
 
 use Illuminate\Support\ServiceProvider;
 use App\Zone;
+use Illuminate\Routing\UrlGenerator;
 
 class AppServiceProvider extends ServiceProvider
 {
@@ -12,12 +13,18 @@ class AppServiceProvider extends ServiceProvider
      *
      * @return void
      */
-    public function boot()
+    public function boot(UrlGenerator $url)
     {
+        if(env('APP_ENV') !== 'local')
+        {
+            $url->forceSchema('https');
+        }
+
         $this->interZones = Zone::where('league_id' , 1)->orderBy('name', 'asc')->get();
         $this->nergaZones = Zone::where('league_id' , 2)->orderBy('name', 'asc')->get();
         view()->share('interZones', $this->interZones);
         view()->share('nergaZones', $this->nergaZones);
+
     }
 
     /**

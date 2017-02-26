@@ -3,11 +3,7 @@
 namespace App;
 
 use Illuminate\Database\Eloquent\Model;
-use Carbon\Carbon;
 use App\Http\Requests;
-use Illuminate\Support\Facades\DB;
-use League\Flysystem\Filesystem;
-use League\Flysystem\FilesystemInterface;
 use Thujohn\Twitter\Facades\Twitter;
 use GrahamCampbell\Flysystem\Facades\Flysystem;
 

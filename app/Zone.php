@@ -5,6 +5,7 @@ namespace App;
 use Illuminate\Database\Eloquent\Model;
 use App\Http\Requests;
 use Thujohn\Twitter\Facades\Twitter;
+use GrahamCampbell\Flysystem\Facades\Flysystem;
 
 class Zone extends Model
 {
@@ -35,7 +36,10 @@ class Zone extends Model
             $destinationPath = preg_replace("/[\s_]/", "-", $destinationPath);
             $fileName = $file->getClientOriginalName();
             $fileName = time() . preg_replace("/[\s_]/", "-", $fileName);
-            $file->move($destinationPath, $fileName);
+            $stream = fopen($file->getRealPath(), 'r+');
+
+
+            Flysystem::connection('awss3')->writeStream($destinationPath . "/" . $fileName, $stream, ['visibility' => 'public']);
             $path = $destinationPath . $fileName;
             // tweat that a file has been updated.
            // $this->sendZoneUpdateTweet($zone, $name);

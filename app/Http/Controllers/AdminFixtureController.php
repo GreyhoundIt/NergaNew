@@ -20,7 +20,7 @@ class AdminFixtureController extends Controller
      */
     public function index()
     {
-        $fixtures = Fixture::all();
+        $fixtures = Fixture::orderBy('zone_id')->get();
         return view('admin.fixtures.index')->withFixtures($fixtures);
     }
 

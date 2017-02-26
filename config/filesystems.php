@@ -56,9 +56,8 @@ return [
 
         's3' => [
             'driver'          => 'awss3',
-            'key'             => 'AKIAINZM6JQF4OQBFQIQ',
-            'secret'          => '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',
-            'bucket'          => 'nerga',
+            'secret'          => '',
+            'bucket'          => '',
             'region'          => 'eu-west-2',
             'version'         => 'latest',
             // 'bucket_endpoint' => false,

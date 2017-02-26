@@ -42,7 +42,7 @@ class Fixture extends Model
                 $destinationPath = $fixture->zone->league->name . '/' . $fixture->zone->name . '/' . $fixture->id . '/startsheets/' ;
                 $destinationPath = strtolower($destinationPath);
                 //Convert whitespaces and underscore to dash
-                $destinationPath = preg_replace("/[\s_]/", "-", $destinationPath);
+                $destinationPath = preg_replace('/[\s_]/', "-", $destinationPath);
             }else{
                 $destinationPath = $fixture->zone->league->name . '/' . $fixture->zone->name . '/' . $fixture->id . '/results/';
                 $destinationPath = strtolower($destinationPath);

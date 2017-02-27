@@ -77,10 +77,10 @@
 
                 <div class="inner-content col-md-12">
                     <hr>
-                    @if($zone->team_overall)<a href="{!! url($zone->team_overall) !!}" class="btn btn-success edit-btn"
+                    @if($zone->team_overall)<a href="https://s3.eu-west-2.amazonaws.com/nerga/{{($zone->team_overall)}}" class="btn btn-success edit-btn"
                                                role="button" target="_blank">Zone Team Overall</a>
                     @endif
-                    @if($zone->person_overall)<a href="{!! url($zone->person_overall) !!}"
+                    @if($zone->person_overall)<a href="https://s3.eu-west-2.amazonaws.com/nerga/{{($zone->person_overall)}}"
                                                  class="btn btn-success edit-btn" role="button" target="_blank">Zone
                         Individual Overall</a>
                     @endif

@@ -12,7 +12,7 @@
                         <ul>
                             <li>The purpose of the Association is to promote high handicap golf throughout the North East.<br />
                                 NERGA &#8211; 16 -28 handicaps .<br />
-                                INTER &#8211;   10-15 handicaps</li>
+                                INTER &#8211;   8-15 handicaps</li>
                             <li>The aims are to provide competitive and enjoyable golf for all high handicap  golfers, and to generate good income for participating Member Clubs.</li>
                             <li>The Association shall be administered by 5 Officers - Chairman , Secretary , Treasurer and Competition Secretary, Handicap Secretary and a Management Committee being one elected person from each Zone League.Officers to serve 2 years and to provide continuity the Chairman and Competition Secretary to be elected on odd number years and the Secretary and Treasurer on even number years.Elected Committee person shall serve till the next AGM (2014)</li>
                             <li>The AGM to be held November each year.</li>

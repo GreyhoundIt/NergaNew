@@ -23,7 +23,7 @@
                         <h5 class="text-center">Post Code: {{$next->club->post_code}}</h5>
                         <p class="text-center pad-bot"> {{ link_to($next->club->website, $title = "Visit Website", $attributes = array("target"=>"_blank", 'Class' => 'btn btn-primary')) }}</p>
 
-                        @if (Auth::user() &&  (!in_array($zone->id, $userzone)))<br/>
+                        @if (Auth::user() &&  (in_array($zone->id, $userzone)))<br/>
                             @if($opening >$present)
                                 <p class="text-center"> Team entries will open at {{$opening->toDayDateTimeString()}}
                                 </p>

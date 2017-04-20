@@ -95,7 +95,7 @@ class Fixture extends Model
     public static function fixtureClosingTime($fixture)
     {
         $fixtureDate =$fixture->fixture_date;
-       return  $fixtureDate->modify('-3 days 20:00');
+       return  $fixtureDate->modify('-3 days 19:00');
     }
 
     public static function fixtureOpeningTime($fixture)

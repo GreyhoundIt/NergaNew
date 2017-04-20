@@ -181,7 +181,7 @@
                         </div>
                     </div>
 
-                    {{ Form::submit('Submit Team', array('class' => 'btn btn-default btn-lg btn-block btn-form')) }}
+                    {{ Form::submit('Submit Team', array('class' => 'btn btn-default btn-lg btn-block btn-form','id' =>'submit-team')) }}
                     {!! Form::close() !!}
 
                 <!-- Form to delete fixture -->

@@ -19,7 +19,7 @@
                     <h1>Update your Team</h1>
                         {{ $club->name }}
 
-                    {!! Form::model($teamsheet,  ['route' => ['user.team.update',$teamsheet->id], 'method'=>'patch']) !!}
+                    {!! Form::model($teamsheet,  ['id'=> 'teamForm','route' => ['user.team.update',$teamsheet->id], 'method'=>'patch']) !!}
                     <div class="row player odd">
                         <div class="col-md-4">
                         {{ Form::label('p1_first_name', 'Player 1 First Name:') }}

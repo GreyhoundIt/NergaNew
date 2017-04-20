@@ -19,7 +19,7 @@
                     <h1>Enter your Team</h1>
                         {{ $club->name }}
 
-                    {!! Form::open(array('route' => 'user.team.store')) !!}
+                    {!! Form::open(array('route' => 'user.team.store', 'id' =>'teamForm')) !!}
                     <div class="row player odd">
                         <div class="col-md-4">
                         {{ Form::label('p1_first_name', 'Player 1 First Name:') }}

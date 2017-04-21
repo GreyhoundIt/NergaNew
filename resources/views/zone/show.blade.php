@@ -29,9 +29,9 @@
                                 </p>
                             @elseif($closing > $present && $opening < $present)
                             <p class="text-center negative-top">{{link_to_action('UserTeamSheetController@createOrUpdate', $title = "Submit / Edit Team", $parameters = [$next->id], $attributes = ['Class' => 'btn btn-success'])}}</p>
-                                <p class="text-center">Closing time for entries is {{$closing->toDayDateTimeString()}}</p>
+                                <p class="text-center">Closing time for entries is {{$closing->addHour()->toDayDateTimeString()}}</p>
                             @elseif($closing < $present)
-                                <p class="text-center">Sorry entries closed at {{$closing->toDayDateTimeString()}}</p>
+                                <p class="text-center">Sorry entries closed at {{$closing->addHour()->toDayDateTimeString()}}</p>
 
                             @endif
                         @endif

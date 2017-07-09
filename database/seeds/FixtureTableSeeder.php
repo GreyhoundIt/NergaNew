@@ -73,7 +73,6 @@ class FixtureTableSeeder extends Seeder
         ['zone_id'=> '7','club_id'=> '32','fixture_date' => '2017-07-16 11:30:00', 'bye_team'=> null, 'created_at' => new DateTime, 'updated_at' => new DateTime,],
         ['zone_id'=> '7','club_id'=> '33','fixture_date' => '2017-07-29 10:45:00', 'bye_team'=> null, 'created_at' => new DateTime, 'updated_at' => new DateTime,],
         ['zone_id'=> '7','club_id'=> '34','fixture_date' => '2017-09-09 12:00:00', 'bye_team'=> null, 'created_at' => new DateTime, 'updated_at' => new DateTime,],
-
          ]);
     }
 }

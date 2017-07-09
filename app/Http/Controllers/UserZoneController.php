@@ -22,10 +22,11 @@ class UserZoneController extends Controller
         $fixtures = $fixtures->sortBy('fixture_date');
        // $next = $fixtures->where('fixture_date', '>', Carbon::now());
 
+
         $next = $fixtures->filter(function ($fixture) {
             return $fixture['fixture_date'] > Carbon::now();
         });
-      //  dd($next);
+        //  dd($next);
         /** @var Fixture $next */
         $next = $next->first();
         /** @var date $nextclosing */
@@ -33,8 +34,11 @@ class UserZoneController extends Controller
         $opening = Fixture::fixtureOpeningTime($next);
         //dd($opening);
         $present =  Carbon::now();
-        $forecast = $this->getFixtureWeather($next->club->post_code);
-
+        if($next) {
+            $forecast = $this->getFixtureWeather($next->club->post_code);
+        }else{
+            $forecast = null;
+        }
        // dd($forecast);
 
         $fortnight = Fixture::where('zone_id', '=' ,$id)

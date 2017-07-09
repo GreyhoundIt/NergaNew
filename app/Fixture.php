@@ -94,14 +94,18 @@ class Fixture extends Model
 
     public static function fixtureClosingTime($fixture)
     {
-        $fixtureDate =$fixture->fixture_date;
-       return  $fixtureDate->modify('-3 days 19:00');
+       if($fixture) {
+           $fixtureDate = $fixture->fixture_date;
+           return $fixtureDate->modify('-3 days 19:00');
+       }
     }
 
     public static function fixtureOpeningTime($fixture)
     {
-        $fixtureDate =$fixture->fixture_date;
-        return  $fixtureDate->modify('-14 days 00:00');
+        if($fixture) {
+            $fixtureDate = $fixture->fixture_date;
+            return $fixtureDate->modify('-14 days 00:00');
+        }
     }
 
 }

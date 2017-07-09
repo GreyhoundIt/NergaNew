@@ -3,10 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="190208ae-950f-4336-ba7b-58592a497a64" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Fixture.php" afterPath="$PROJECT_DIR$/app/Fixture.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/UserZoneController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/UserZoneController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Requests/TeamCreateRequest.php" afterPath="$PROJECT_DIR$/app/Http/Requests/TeamCreateRequest.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/database/seeds/FixtureTableSeeder.php" afterPath="$PROJECT_DIR$/database/seeds/FixtureTableSeeder.php" />
     </list>
     <ignored path="NergaNew.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -41,17 +37,17 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UserTableSeeder.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="UserTableSeeder.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/database/seeds/UserTableSeeder.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="377">
-              <caret line="50" column="117" selection-start-line="50" selection-start-column="117" selection-end-line="50" selection-end-column="133" />
+              <caret line="50" column="133" selection-start-line="50" selection-start-column="117" selection-end-line="50" selection-end-column="133" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UserZoneController.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="UserZoneController.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/Http/Controllers/UserZoneController.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="216">
@@ -596,12 +592,12 @@
       <workItem from="1492770733349" duration="820000" />
       <workItem from="1494871310148" duration="1032000" />
       <workItem from="1497686296954" duration="218000" />
-      <workItem from="1499578626480" duration="2598000" />
+      <workItem from="1499578626480" duration="2736000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="240203000" />
+    <option name="totallyTimeSpent" value="240341000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1687" y="95" width="1680" height="1023" extended-state="6" />
@@ -1007,14 +1003,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/database/seeds/UserTableSeeder.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="377">
-          <caret line="50" column="117" selection-start-line="50" selection-start-column="117" selection-end-line="50" selection-end-column="133" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/database/seeds/FixtureTableSeeder.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="504">
@@ -1051,6 +1039,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="216">
           <caret line="39" column="29" selection-start-line="39" selection-start-column="29" selection-end-line="39" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/seeds/UserTableSeeder.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="377">
+          <caret line="50" column="133" selection-start-line="50" selection-start-column="117" selection-end-line="50" selection-end-column="133" />
           <folding />
         </state>
       </provider>

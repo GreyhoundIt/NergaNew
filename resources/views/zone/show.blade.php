@@ -55,7 +55,7 @@
 
 
                     @else
-                        <span>All Fixtures are complete for this season</span>
+                        <h3>All Fixtures are complete for this season</h3>
                     @endif
 
                 </div>

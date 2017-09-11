@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="190208ae-950f-4336-ba7b-58592a497a64" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/finals.blade.php" afterPath="$PROJECT_DIR$/resources/views/finals.blade.php" />
     </list>
     <ignored path="NergaNew.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -30,18 +31,38 @@
       <file leaf-file-name="show.blade.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/views/zone/show.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-720">
-              <caret line="19" column="30" selection-start-line="19" selection-start-column="30" selection-end-line="19" selection-end-column="30" />
+            <state relative-caret-position="1320">
+              <caret line="55" column="0" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UserTableSeeder.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="User.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/User.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UserTableSeeder.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/database/seeds/UserTableSeeder.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="377">
-              <caret line="50" column="133" selection-start-line="50" selection-start-column="117" selection-end-line="50" selection-end-column="133" />
+            <state relative-caret-position="597">
+              <caret line="54" column="0" selection-start-line="54" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="finals.blade.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/resources/views/finals.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="576">
+              <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="19" selection-end-column="18" />
               <folding />
             </state>
           </provider>
@@ -50,7 +71,7 @@
       <file leaf-file-name="UserZoneController.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/Http/Controllers/UserZoneController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
+            <state relative-caret-position="720">
               <caret line="39" column="29" selection-start-line="39" selection-start-column="29" selection-end-line="39" selection-end-column="29" />
               <folding />
             </state>
@@ -60,7 +81,7 @@
       <file leaf-file-name="Zone.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/Zone.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1608">
+            <state relative-caret-position="1536">
               <caret line="68" column="0" selection-start-line="68" selection-start-column="0" selection-end-line="68" selection-end-column="0" />
               <folding />
             </state>
@@ -70,7 +91,7 @@
       <file leaf-file-name="Fixture.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/Fixture.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2592">
+            <state relative-caret-position="2400">
               <caret line="107" column="9" selection-start-line="107" selection-start-column="9" selection-end-line="107" selection-end-column="9" />
               <folding />
             </state>
@@ -80,28 +101,8 @@
       <file leaf-file-name="FixtureTableSeeder.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/database/seeds/FixtureTableSeeder.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="504">
+            <state relative-caret-position="480">
               <caret line="20" column="8" selection-start-line="20" selection-start-column="7" selection-end-line="20" selection-end-column="8" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="app.blade.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/views/layouts/app.blade.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2664">
-              <caret line="111" column="1" selection-start-line="111" selection-start-column="1" selection-end-line="111" selection-end-column="1" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="create.blade.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/views/teamsheets/create.blade.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="504">
-              <caret line="21" column="85" selection-start-line="21" selection-start-column="79" selection-end-line="21" selection-end-column="87" />
               <folding />
             </state>
           </provider>
@@ -155,7 +156,6 @@
         <option value="$PROJECT_DIR$/app/TeamSheet.php" />
         <option value="$PROJECT_DIR$/resources/views/partials/footer.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/welcome.blade.php" />
-        <option value="$PROJECT_DIR$/resources/views/finals.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/honours.blade.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/HomeController.php" />
         <option value="$PROJECT_DIR$/app/Http/routes.php" />
@@ -190,11 +190,12 @@
         <option value="$PROJECT_DIR$/resources/views/teamsheets/create.blade.php" />
         <option value="$PROJECT_DIR$/public/js/teams.js" />
         <option value="$PROJECT_DIR$/resources/views/teamsheets/edit.blade.php" />
-        <option value="$PROJECT_DIR$/resources/views/zone/show.blade.php" />
         <option value="$PROJECT_DIR$/app/Http/Requests/TeamCreateRequest.php" />
         <option value="$PROJECT_DIR$/database/seeds/FixtureTableSeeder.php" />
         <option value="$PROJECT_DIR$/app/Fixture.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/UserZoneController.php" />
+        <option value="$PROJECT_DIR$/resources/views/zone/show.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/finals.blade.php" />
       </list>
     </option>
   </component>
@@ -309,10 +310,8 @@
     </include_path>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-1687" />
-    <option name="y" value="95" />
     <option name="width" value="1680" />
-    <option name="height" value="1023" />
+    <option name="height" value="1050" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -339,6 +338,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -457,9 +457,48 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="NergaNew" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="NergaNew" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Http" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="NergaNew" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="NergaNew" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Http" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Middleware" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="Scratches" />
     </panes>
   </component>
@@ -472,6 +511,7 @@
     <property name="js.buildTools.gulp.gulp_package_dir" value="/usr/local/lib/node_modules/gulp" />
     <property name="js-jscs-nodeInterpreter" value="/usr/local/bin/node" />
     <property name="SearchEverywhereHistoryKey" value=".sc&#9;FILE&#9;file:///Users/matthew/Desktop/NergaNew/resources/assets/sass/app.scss&#10;se&#9;FILE&#9;file:///Users/matthew/Desktop/NergaNew/app/Providers/AppServiceProvider.php&#10;routes&#9;FILE&#9;file:///Users/matthew/Desktop/NergaNew/app/Http/routes.php&#10;ho&#9;FILE&#9;file:///Users/matthew/Desktop/NergaNew/app/Http/Controllers/HomeController.php&#10;club&#9;FILE&#9;file:///Users/matthew/Desktop/NergaNew/app/Http/Controllers/AdminClubController.php&#10;home&#9;null&#9;null&#10;rout&#9;FILE&#9;file:///Users/matthew/Desktop/NergaNew/app/Http/routes.php&#10;UT&#9;FILE&#9;file:///Users/matthew/Desktop/NergaNew/app/Http/Controllers/UserTeamSheetController.php&#10;z&#9;FILE&#9;file:///Users/matthew/Desktop/NergaNew/app/Http/Controllers/UserZoneController.php&#10;fix&#9;null&#9;null&#10;f&#9;FILE&#9;file:///Users/matthew/Desktop/NergaNew/app/Http/Controllers/AdminFixtureController.php&#10;adminc&#9;FILE&#9;file:///Users/matthew/Desktop/NergaNew/app/Http/Controllers/AdminClubController.php&#10;route&#9;FILE&#9;file:///Users/matthew/Desktop/NergaNew/app/Http/routes.php&#10;zone&#9;FILE&#9;file:///Users/matthew/Desktop/NergaNew/app/Http/Controllers/UserZoneController.php&#10;teamc&#9;FILE&#9;file:///Users/matthew/Desktop/NergaNew/app/Http/Controllers/UserTeamSheetController.php&#10;con&#9;FILE&#9;file:///Users/matthew/Desktop/NergaNew/app/Http/Controllers/AdminFixtureController.php&#10;user&#9;FILE&#9;file:///Users/matthew/Desktop/NergaNew/app/User.php&#10;log&#9;FILE&#9;file:///Users/matthew/Desktop/NergaNew/resources/views/auth/login.blade.php&#10;Pro&#9;FILE&#9;file:///Users/matthew/Desktop/NergaNew/app/Providers/AppServiceProvider.php&#10;login&#9;FILE&#9;file:///Users/matthew/Desktop/NergaNew/resources/views/auth/login.blade.php&#10;auth&#9;FILE&#9;file:///Users/matthew/Desktop/NergaNew/app/Http/Controllers/Auth/AuthController.php&#10;app.php&#9;FILE&#9;file:///Users/matthew/Desktop/NergaNew/config/app.php&#10;rou&#9;FILE&#9;file:///Users/matthew/Desktop/NergaNew/app/Http/routes.php&#10;zo&#9;null&#9;null&#10;adf&#9;FILE&#9;file:///Users/matthew/Desktop/NergaNew/app/Http/Controllers/AdminFixtureController.php&#10;zon&#9;FILE&#9;file:///Users/matthew/Desktop/NergaNew/app/Http/Controllers/UserZoneController.php&#10;fi&#9;FILE&#9;file:///Users/matthew/Desktop/NergaNew/app/Fixture.php&#10;fixt&#9;FILE&#9;file:///Users/matthew/Desktop/NergaNew/app/Http/Controllers/AdminFixtureController.php&#10;team&#9;null&#9;null&#10;cont&#9;FILE&#9;file:///Users/matthew/Desktop/NergaNew/app/Http/Controllers/AdminFixtureController.php&#10;teamsheet/c&#9;FILE&#9;file:///Users/matthew/Desktop/NergaNew/resources/views/teamsheets/create.blade.php&#10;tea&#9;null&#9;null&#10;h1&#9;FILE&#9;file:///Users/matthew/Desktop/NergaNew/vendor/symfony/console/Tests/Fixtures/application_renderexception_doublewidth1.txt&#10;getClub&#9;null&#9;null&#10;fi\&#9;FILE&#9;file:///Users/matthew/Desktop/NergaNew/app/Fixture.php&#10;app&#9;FILE&#9;file:///Users/matthew/Desktop/NergaNew/config/app.php&#10;env&#9;FILE&#9;file:///Users/matthew/Desktop/NergaNew/.env&#10;fixtur&#9;FILE&#9;file:///Users/matthew/Desktop/NergaNew/app/Fixture.php&#10;ro&#9;FILE&#9;file:///Users/matthew/Desktop/NergaNew/app/Http/routes.php&#10;tEam&#9;FILE&#9;file:///Users/matthew/Desktop/NergaNew/app/TeamSheet.php" />
+    <property name="FullScreen" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -592,26 +632,28 @@
       <workItem from="1492770733349" duration="820000" />
       <workItem from="1494871310148" duration="1032000" />
       <workItem from="1497686296954" duration="218000" />
-      <workItem from="1499578626480" duration="2736000" />
+      <workItem from="1499578626480" duration="3255000" />
+      <workItem from="1505149387934" duration="383000" />
+      <workItem from="1505149929088" duration="302000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="240341000" />
+    <option name="totallyTimeSpent" value="241545000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1687" y="95" width="1680" height="1023" extended-state="6" />
+    <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297619" sideWeight="0.2503726" order="4" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3297619" sideWeight="0.7496274" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2470238" sideWeight="0.7496274" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2955975" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20638086" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32914045" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -677,20 +719,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/resources/views/links.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="15" column="49" selection-start-line="15" selection-start-column="49" selection-end-line="15" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/sponsors.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="9" column="53" selection-start-line="9" selection-start-column="53" selection-end-line="9" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/routes.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="114">
@@ -947,7 +975,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="23" column="27" selection-start-line="23" selection-start-column="27" selection-end-line="23" selection-end-column="27" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -955,7 +982,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="4464">
           <caret line="186" column="4" selection-start-line="186" selection-start-column="4" selection-end-line="186" selection-end-column="4" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -963,7 +989,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3144">
           <caret line="131" column="0" selection-start-line="131" selection-start-column="0" selection-end-line="131" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -971,7 +996,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2664">
           <caret line="111" column="1" selection-start-line="111" selection-start-column="1" selection-end-line="111" selection-end-column="1" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1005,7 +1029,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/database/seeds/FixtureTableSeeder.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
+        <state relative-caret-position="480">
           <caret line="20" column="8" selection-start-line="20" selection-start-column="7" selection-end-line="20" selection-end-column="8" />
           <folding />
         </state>
@@ -1013,23 +1037,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Zone.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1608">
+        <state relative-caret-position="1536">
           <caret line="68" column="0" selection-start-line="68" selection-start-column="0" selection-end-line="68" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/zone/show.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-720">
-          <caret line="19" column="30" selection-start-line="19" selection-start-column="30" selection-end-line="19" selection-end-column="30" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Fixture.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2592">
+        <state relative-caret-position="2400">
           <caret line="107" column="9" selection-start-line="107" selection-start-column="9" selection-end-line="107" selection-end-column="9" />
           <folding />
         </state>
@@ -1037,16 +1053,40 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/UserZoneController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
+        <state relative-caret-position="720">
           <caret line="39" column="29" selection-start-line="39" selection-start-column="29" selection-end-line="39" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/zone/show.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1320">
+          <caret line="55" column="0" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/User.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/database/seeds/UserTableSeeder.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="377">
-          <caret line="50" column="133" selection-start-line="50" selection-start-column="117" selection-end-line="50" selection-end-column="133" />
+        <state relative-caret-position="597">
+          <caret line="54" column="0" selection-start-line="54" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/finals.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="576">
+          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="19" selection-end-column="18" />
           <folding />
         </state>
       </provider>

@@ -16,6 +16,11 @@
                     <li><a href="https://s3.eu-west-2.amazonaws.com/nerga/finalsday/2017+Finals+Day+Qualifying+Inter+++Players.pdf" target="_blank">List of Qualified Inter players</a></li>
                     <li><a href="https://s3.eu-west-2.amazonaws.com/nerga/finalsday/NERGa+Finals+Day+2017+-+Qualifying++Clubs.pdf">List of Inter qualified clubs</a></li>
                 </ul>
+                <ul>
+                    <li><a href="https://s3.eu-west-2.amazonaws.com/nerga/finalsday/List+of+all+Rabbit+Players.pdf" target="_blank">List of all Rabbit Players</a></li>
+                    <li><a href="https://s3.eu-west-2.amazonaws.com/nerga/finalsday/All+Qualifiers+Rabbit+Players.pdf" target="_blank">List of Qualified Rabbit players</a></li>
+                    <li><a href="https://s3.eu-west-2.amazonaws.com/nerga/finalsday/List+of+Rabbits+Team+++++qualifiers.pdf">List of Rabbit qualified clubs</a></li>
+                </ul>
 
             </div>
             <?php echo View::make('partials.footer') ?>

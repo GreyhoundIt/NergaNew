@@ -10,7 +10,7 @@
                 <img src="/images/Woodham.jpg" class="center-block leadpic" alt="North East Rabbits League Logo">
                 <p>NERGA will host two separate Finals Days for 2017, with both events taking place at <a href="http://www.woodhamgolfandcountryclub.co.uk/" target="_blank">Woodham Golf and Country Club</a></p>
                 <p>The 2017 Inter Finals day will take place on Saturday 23/9/17 with the Rabbits Finals Day taking place a week later on Saturday 30/9/17.</p>
-                <h3><i class="fa fa-list-ol" aria-hidden="true"></i><a href="https://s3.eu-west-2.amazonaws.com/nerga/finalsday/2017+Finals+Day+Inter+Start++++Sheet2.pdf" target="_blank">INTER Start Sheet</a></h3>
+                <h3 class="padding-left"> <i class="fa fa-list-ol" aria-hidden="true"></i> <a href="https://s3.eu-west-2.amazonaws.com/nerga/finalsday/2017+Finals+Day+Inter+Start++++Sheet2.pdf" target="_blank">INTER Start Sheet</a></h3>
                 <ul>
                     <li><a href="https://s3.eu-west-2.amazonaws.com/nerga/finalsday/General+Info+v2.pdf" target="_blank">General Information</a></li>
                     <li><a href="https://s3.eu-west-2.amazonaws.com/nerga/finalsday/2017+Finals+Day+Inter+All+++Players.pdf" target="_blank">List of all Inter Players</a></li>

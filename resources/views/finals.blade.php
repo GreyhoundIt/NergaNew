@@ -24,6 +24,17 @@
                 </ul>
 
             </div>
+                <div class="inner-content col-md-12">
+                    <div class="col-md-6">
+                        <h3 class="padding-left">INTER Results</h3>
+                        <ul>
+                            <li><a href="https://s3.eu-west-2.amazonaws.com/nerga/finalsday/2017+Inter+INDIVIDUAL+Result.pdf" target="_blank">Individual Competition Results</a></li>
+                            <li><a href="https://s3.eu-west-2.amazonaws.com/nerga/finalsday/2017+Inter+Team+Event+-+Results+-+++Players.pdf" target="_blank">Team Event Player Results</a></li>
+                            <li><a href="https://s3.eu-west-2.amazonaws.com/nerga/finalsday/2017+Inter+Team+Event+-+Results+-++Points.pdf" target="_blank">Team Event Team Results</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-6"></div>
+                </div>
             <?php echo View::make('partials.footer') ?>
         </div>
     </div>

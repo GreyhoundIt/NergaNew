@@ -41,8 +41,8 @@
       <file leaf-file-name="finals.blade.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/resources/views/finals.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="611">
-              <caret line="31" column="174" selection-start-line="31" selection-start-column="174" selection-end-line="31" selection-end-column="174" />
+            <state relative-caret-position="288">
+              <caret line="12" column="218" selection-start-line="12" selection-start-column="218" selection-end-line="12" selection-end-column="218" />
               <folding />
             </state>
           </provider>
@@ -61,7 +61,7 @@
       <file leaf-file-name="app.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/css/app.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="715">
+            <state relative-caret-position="139656">
               <caret line="5819" column="0" selection-start-line="5819" selection-start-column="0" selection-end-line="5819" selection-end-column="0" />
               <folding />
             </state>
@@ -339,6 +339,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -554,7 +555,6 @@
         </subPane>
       </pane>
       <pane id="Scope" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -594,6 +594,9 @@
       <BehatRunner />
       <method />
     </configuration>
+    <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
+      <method />
+    </configuration>
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
       <node-interpreter>project</node-interpreter>
       <node-options />
@@ -616,6 +619,9 @@
       <recursive>false</recursive>
       <method />
     </configuration>
+    <list size="1">
+      <item index="0" class="java.lang.String" itemvalue="PHP Script.AdminFixtureController.php" />
+    </list>
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
@@ -667,12 +673,13 @@
       <workItem from="1505149929088" duration="772000" />
       <workItem from="1505419008058" duration="322000" />
       <workItem from="1505973461175" duration="807000" />
-      <workItem from="1506249698761" duration="370000" />
+      <workItem from="1506249698761" duration="513000" />
+      <workItem from="1506492886672" duration="57000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="243514000" />
+    <option name="totallyTimeSpent" value="243714000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="14" width="1680" height="1023" extended-state="6" />
@@ -1110,7 +1117,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/public/css/app.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="715">
+        <state relative-caret-position="139656">
           <caret line="5819" column="0" selection-start-line="5819" selection-start-column="0" selection-end-line="5819" selection-end-column="0" />
           <folding />
         </state>
@@ -1118,8 +1125,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/finals.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="611">
-          <caret line="31" column="174" selection-start-line="31" selection-start-column="174" selection-end-line="31" selection-end-column="174" />
+        <state relative-caret-position="288">
+          <caret line="12" column="218" selection-start-line="12" selection-start-column="218" selection-end-line="12" selection-end-column="218" />
           <folding />
         </state>
       </provider>

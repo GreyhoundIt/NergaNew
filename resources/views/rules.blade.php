@@ -62,21 +62,18 @@
 
                             <li>	Any Club fielding a team short of one or more players will be deducted 1 NERGA / INTER point.</li>
 
-                            <li>	Match fee for 2015 to remain at £10.00 per player.</li>
+                            <li>	Match fee for 2018 is £11.00 per player. - which includes £1 per player fundraising levy.</li>
 
                             <li>	Individual Trophy . A player must play in a minimum of 3 NERGA / INTER fixtures within the season.The calculation
                                 will be the best 3 Stableford scores total in the season.In the event of a tie the 4th score to count to
                                 determine the highest place player.The highest place player from each Clubwill be invited to the Finals day
                                 to contest the NERGA / INTER Individual Trophy.  In the event that the player is not available to attend then
                                 the Club to nominate a replacement to ensure all Clubs have a representative in the NERGA / INTER Individual
-                                Trophy Final. Players who are not the highest placed player in a club, but are in the top 10 players in the overall Inter or Rabbits classification will also be invited to compete for the Individual Championship at Finals Day</li>
+                                Trophy Final.</li>
 
-                            <li>	NERGA / INTER  Club Championship. At the end of the season the Club with the highest NERGA / INTER points total will be
-                                the Zone League Champion and all Zone League Champions will be invited to contest the NERGA / INTER  Club
-                                Championship at the Finals Day.Also to be invited the highest points scoring Runner Up from all the Zone
-                                Leagues.</li>
+                            <li>	NERGA / INTER Club Championship. At the end of the season the Club with the highest NERGA / INTER points total will be the Zone League Champion and all Zone League Champions as well as the 2nd placed team in each Zone will be invited to contest the NERGA / INTER Club Championship at the Finals Day.</li>
 
-                            <li>	The best runner position will be determined by the REX Factor.</li>
+                            <li>	THost club to donate a 4 ball voucher, or a similar, equivalent prize to the top scoring individual at an event</li>
 
                             <li><li>	Any player who fails to submit a correct scorecard properly signed by himself and his marker will be disqualified.</li>
 

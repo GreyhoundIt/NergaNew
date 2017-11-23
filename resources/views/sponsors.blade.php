@@ -7,8 +7,8 @@
                 <?php echo View::make('partials.hero') ?>
                 <div class="inner-content col-md-12">
                     <h1>NERGA would like to thank our following sponsors</h1>
-                    <h3>Woodham Golf and Country Club</h3>
-                    <a href="http://www.woodhamgolfandcountryclub.co.uk"><img alt="Woodham Golf and Country Club" src="http://www.woodhamgolfandcountryclub.co.uk/wp-content/uploads/2015/03/wg_banner_2.jpg" width=" 100%"/></a>
+                    <h3>Ramside Hall</h3>
+                    <a href="http://www.ramsidehallhotel.co.uk/golf/">Ramside Hall gold</a>
 
                 </div>
                 <?php echo View::make('partials.footer') ?>

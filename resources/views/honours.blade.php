@@ -10,6 +10,25 @@
 
                     <div class="panel panel-primary center">
                         <div class="panel-heading">
+                            <h3 class="panel-title">20167</h3>
+                        </div>
+                        <div class="panel-body">
+                            <p><b>INTER Club Championship </b></br>
+
+                                Winners - Malton & Norton</br>
+                                Runners-up - Stocksfield</p>
+
+                            <br><b>Inter Individual Championship </b> </br>
+
+                                Winner - Anthony Blackburn - Ripon City</br>
+                            Runner-up - Steve Buxton - Romanby</p>
+                        </div>
+                    </div>
+
+
+
+                    <div class="panel panel-primary center">
+                        <div class="panel-heading">
                             <h3 class="panel-title">2016</h3>
                         </div>
                         <div class="panel-body">

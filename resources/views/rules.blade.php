@@ -74,8 +74,7 @@
                             <li>	NERGA / INTER Club Championship. At the end of the season the Club with the highest NERGA / INTER points total will be the Zone League Champion and all Zone League Champions as well as the 2nd placed team in each Zone will be invited to contest the NERGA / INTER Club Championship at the Finals Day.</li>
 
                             <li>	THost club to donate a 4 ball voucher, or a similar, equivalent prize to the top scoring individual at an event</li>
-
-                            <li><li>	Any player who fails to submit a correct scorecard properly signed by himself and his marker will be disqualified.</li>
+                            <li>	Any player who fails to submit a correct scorecard properly signed by himself and his marker will be disqualified.</li>
 
                             <li>	Handicaps. All Clubs must accept 'Away Score' from NERGA / INTER fixtures and process them to maintain the integrity
                                 of all player handicaps.<br/>

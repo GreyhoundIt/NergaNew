@@ -34,11 +34,11 @@ class UserZoneController extends Controller
         $opening = Fixture::fixtureOpeningTime($next);
         //dd($opening);
         $present =  Carbon::now();
-        if($next) {
-            $forecast = $this->getFixtureWeather($next->club->post_code);
-        }else{
-            $forecast = null;
-        }
+       // if($next) {
+       //     $forecast = $this->getFixtureWeather($next->club->post_code);
+      //  }else{
+      //      $forecast = null;
+     //  }
        // dd($forecast);
 
         $fortnight = Fixture::where('zone_id', '=' ,$id)
@@ -57,7 +57,7 @@ class UserZoneController extends Controller
             }
         }
 
-        return view('zone.show')->withZone($zone)->withFixtures($fixtures)->withNext($next)->withOpening($opening)->withClosing($closing)->withUserzone($userzone)->withForecast($forecast)->withFortnight($fortnight)->withPresent($present);
+        return view('zone.show')->withZone($zone)->withFixtures($fixtures)->withNext($next)->withOpening($opening)->withClosing($closing)->withUserzone($userzone)->withFortnight($fortnight)->withPresent($present);
     }
 
     public function getFixtureWeather($location)
@@ -69,7 +69,9 @@ class UserZoneController extends Controller
         $units = 'metric';
         // Get OpenWeatherMap object. Don't use caching (take a look into Example_Cache.php to see how it works).
         $owm = new OpenWeatherMap("90d625c068e3f3d7818b9e4237871e21");
-        $forecast = $owm->getDailyWeatherForecast($location, $units, $lang, '90d625c068e3f3d7818b9e4237871e21', 6);
+//var_dump($owm); exit;
+        $forecast = $owm->getDailyWeatherForecast($location, $units, $lang, '90d625c068e3f3d7818b9e4237871e21', 5);
+        var_dump($forecast); exit;
         return $forecast;
     }
 

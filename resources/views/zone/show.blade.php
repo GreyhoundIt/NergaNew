@@ -36,7 +36,7 @@
                             @endif
                         @endif
 
-
+                        @if(isset($forcast)){
                         @foreach($forecast as $weather)
                             <div class="equal">
                                 <div class="col-md-2 pad-bot weather-box">
@@ -52,7 +52,7 @@
                                 </div>
                             </div>
                         @endforeach
-
+                        @endif
 
                     @else
                         <h3>All Fixtures are complete for this season</h3>

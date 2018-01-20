@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="190208ae-950f-4336-ba7b-58592a497a64" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/UserZoneController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/UserZoneController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/zone/show.blade.php" afterPath="$PROJECT_DIR$/resources/views/zone/show.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/sponsors.blade.php" afterPath="$PROJECT_DIR$/resources/views/sponsors.blade.php" />
     </list>
     <ignored path="NergaNew.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -29,16 +27,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="2016_12_03_144456_create_fixtures_table.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/database/migrations/2016_12_03_144456_create_fixtures_table.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="ClubTableSeeder.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/database/seeds/ClubTableSeeder.php">
           <provider selected="true" editor-type-id="text-editor">
@@ -79,11 +67,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UserZoneController.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="UserZoneController.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/Http/Controllers/UserZoneController.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="540">
               <caret line="59" column="162" selection-start-line="59" selection-start-column="162" selection-end-line="59" selection-end-column="162" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="sponsors.blade.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/resources/views/sponsors.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="200">
+              <caret line="10" column="87" selection-start-line="10" selection-start-column="87" selection-end-line="10" selection-end-column="87" />
               <folding />
             </state>
           </provider>
@@ -189,7 +187,6 @@
         <option value="$PROJECT_DIR$/resources/views/welcome.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/finals.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/honours.blade.php" />
-        <option value="$PROJECT_DIR$/resources/views/sponsors.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/rules.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/partials/footer.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/layouts/app.blade.php" />
@@ -202,6 +199,7 @@
         <option value="$PROJECT_DIR$/vendor/cmfcmf/openweathermap-php-api/Cmfcmf/OpenWeatherMap.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/UserZoneController.php" />
         <option value="$PROJECT_DIR$/resources/views/zone/show.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/sponsors.blade.php" />
       </list>
     </option>
   </component>
@@ -741,7 +739,7 @@
       <workItem from="1507062399891" duration="241000" />
       <workItem from="1511464184624" duration="1152000" />
       <workItem from="1516388209581" duration="5684000" />
-      <workItem from="1516453582646" duration="4219000" />
+      <workItem from="1516453582646" duration="4285000" />
     </task>
     <task id="LOCAL-00001" summary="Updated clubs for 2018 season">
       <created>1516451875290</created>
@@ -754,7 +752,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="255205000" />
+    <option name="totallyTimeSpent" value="255271000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="6" />
@@ -995,13 +993,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/sponsors.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/rules.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1239,6 +1230,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="540">
           <caret line="59" column="162" selection-start-line="59" selection-start-column="162" selection-end-line="59" selection-end-column="162" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/sponsors.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="10" column="87" selection-start-line="10" selection-start-column="87" selection-end-line="10" selection-end-column="87" />
           <folding />
         </state>
       </provider>

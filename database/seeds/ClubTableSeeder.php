@@ -50,7 +50,11 @@ class ClubTableSeeder extends Seeder
             ['id' =>'33','name' => 'Easingwold', 'post_code'=> 'YO61 3ET', 'website' => 'http://www.easingwoldgolfclub.co.uk/','created_at' => new DateTime, 'updated_at' => new DateTime],
             ['id' =>'34','name' => 'Malton and Norton', 'post_code'=> 'YO17 9QE', 'website' => 'http://www.maltonandnortongolfclub.co.uk/','created_at' => new DateTime, 'updated_at' => new DateTime],
         ['id' =>'35','name' => 'Hunley', 'post_code'=> 'TS12 2FT', 'website' => 'http://www.hunleyhotel.co.uk/','created_at' => new DateTime, 'updated_at' => new DateTime],
-        ['id' =>'999','name' => 'Google', 'post_code'=> 'AA12 2ZZ', 'website' => 'http://www.google.co.uk/','created_at' => new DateTime, 'updated_at' => new DateTime]
+            ['id' =>'36','name' => 'Wetherby', 'post_code'=> 'LS22 4JF', 'website' => 'http://www.wetherbygolfclub.co.uk/','created_at' => new DateTime, 'updated_at' => new DateTime],
+            ['id' =>'37','name' => 'Bootheferry', 'post_code'=> 'DN14 7NG', 'website' => 'http://boothferrygolfclub.co.uk/','created_at' => new DateTime, 'updated_at' => new DateTime],
+            ['id' =>'38','name' => 'Oakleaf', 'post_code'=> 'DL5 6QZ', 'website' => 'http://www.great-aycliffe.gov.uk/oakleafgolfcomplex/home/','created_at' => new DateTime, 'updated_at' => new DateTime],
+
+            ['id' =>'999','name' => 'Google', 'post_code'=> 'AA12 2ZZ', 'website' => 'http://www.google.co.uk/','created_at' => new DateTime, 'updated_at' => new DateTime]
         ]);
     }
 }

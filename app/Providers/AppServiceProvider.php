@@ -19,11 +19,11 @@ class AppServiceProvider extends ServiceProvider
         {
             $url->forceSchema('https');
         }
-
-        //$this->interZones = Zone::where('league_id' , 1)->orderBy('name', 'asc')->get();
-        //$this->nergaZones = Zone::where('league_id' , 2)->orderBy('name', 'asc')->get();
-       // view()->share('interZones', $this->interZones);
-       // view()->share('nergaZones', $this->nergaZones);
+        //Comment out these lines when deploying
+        $this->interZones = Zone::where('league_id' , 1)->orderBy('name', 'asc')->get();
+        $this->nergaZones = Zone::where('league_id' , 2)->orderBy('name', 'asc')->get();
+        view()->share('interZones', $this->interZones);
+        view()->share('nergaZones', $this->nergaZones);
 
     }
 

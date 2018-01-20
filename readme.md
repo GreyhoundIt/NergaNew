@@ -25,3 +25,16 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](http://opensource.org/licenses/MIT).
+
+## Deploying a New Season
+  - Update seeder file
+  - Log in to Heroku 
+  - heroku pg:reset DATABASE
+  - comment out the lines in the AppServiceProviderFile
+  - Git push heroku master
+  - Heroku run bash
+  - php artisan migrate:refresh
+  - php artisan db:seed
+  - uncmment linkes in AppServiceProvider
+  - git push Heroku master
+  

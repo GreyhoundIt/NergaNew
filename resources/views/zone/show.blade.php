@@ -12,6 +12,7 @@
                 @endif
                 <div class="inner-content col-md-12">
                     <h1 class="text-center">{{$zone->name}}</h1>
+                    <h4 class="text-center">Zone representative: {{$zone->rep_name}} - {{$zone->rep_club}}</h4>
                     <hr>
                 </div>
                 <div class="inner-content col-md-12">

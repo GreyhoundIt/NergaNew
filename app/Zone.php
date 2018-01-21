@@ -12,7 +12,7 @@ use GrahamCampbell\Flysystem\Facades\Flysystem;
 class Zone extends Model
 {
 
-    protected $fillable =['name','league_id', 'team_overall', 'person_overall'];
+    protected $fillable =['name','league_id', 'rep_name', 'rep_club', 'team_overall', 'person_overall'];
 
     public function league()
     {

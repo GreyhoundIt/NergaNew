@@ -48,7 +48,7 @@ class UserTableSeeder extends Seeder
            ['club_id' => '34','isAdmin' => '0' ,'name' => 'MaltonAndNorton', 'username' => 'MaltonAndNorton', 'password' => bcrypt('MAN2018'), 'created_at' => new DateTime, 'updated_at' => new DateTime ],
            ['club_id' => '35','isAdmin' => '0' ,'name' => 'Hunley', 'username' => 'Hunley', 'password' => bcrypt('Hunley2018'), 'created_at' => new DateTime, 'updated_at' => new DateTime ],
             ['club_id' => '36','isAdmin' => '0' ,'name' => 'Wetherby', 'username' => 'Wetherby', 'password' => bcrypt('Wetherby2018'), 'created_at' => new DateTime, 'updated_at' => new DateTime ],
-            ['club_id' => '37','isAdmin' => '0' ,'name' => 'Bootheferry', 'username' => 'Bootheferry', 'password' => bcrypt('Bootheferry2018'), 'created_at' => new DateTime, 'updated_at' => new DateTime ],
+            ['club_id' => '37','isAdmin' => '0' ,'name' => 'Boothferry', 'username' => 'Boothferry', 'password' => bcrypt('Bootheferry2018'), 'created_at' => new DateTime, 'updated_at' => new DateTime ],
             ['club_id' => '38','isAdmin' => '0' ,'name' => 'Oakleaf', 'username' => 'Oakleaf', 'password' => bcrypt('Oakleaf2018'), 'created_at' => new DateTime, 'updated_at' => new DateTime ],
 
             ['club_id' => '999','isAdmin' => '1' ,'name' => 'Iwan', 'username' => 'Iwan', 'password' => bcrypt('IwanNERGA2018'), 'created_at' => new DateTime, 'updated_at' => new DateTime ],

@@ -19,12 +19,12 @@ class ClubTableSeeder extends Seeder
             ['id' =>'5','name' => 'Whitby', 'post_code'=> 'YO21 3JL', 'website' => 'http://whitbygolfclub.info/','created_at' => new DateTime, 'updated_at' => new DateTime],
             ['id' =>'6','name' => 'Billingham', 'post_code'=> 'TS22 5NA', 'website' => 'http://www.billinghamgolfclub.com/','created_at' => new DateTime, 'updated_at' => new DateTime],
             ['id' =>'7','name' => 'Romanby', 'post_code'=> 'DL7 0PE', 'website' => 'http://www.romanby.com/','created_at' => new DateTime, 'updated_at' => new DateTime],
-            ['id' =>'8','name' => 'Chester Le Street', 'post_code'=> 'DH3 4Ns', 'website' => 'http://www.clsgolfclub.co.uk/','created_at' => new DateTime, 'updated_at' => new DateTime],
+            ['id' =>'8','name' => 'Chester-le-Street', 'post_code'=> 'DH3 4Ns', 'website' => 'http://www.clsgolfclub.co.uk/','created_at' => new DateTime, 'updated_at' => new DateTime],
             ['id' =>'9','name' => 'Dinsdale Spa', 'post_code'=> 'DL2 1DW', 'website' => 'http://www.dinsdalespagolfclub.co.uk/','created_at' => new DateTime, 'updated_at' => new DateTime],
 
             ['id' =>'10','name' => 'Kirkbymoorside', 'post_code'=> 'YO62 6EG', 'website' => 'http://www.kirkbymoorsidegolf.co.uk/','created_at' => new DateTime, 'updated_at' => new DateTime],
             ['id' =>'11','name' => 'Catterick', 'post_code'=> 'DL9 3QE', 'website' => 'http://www.catterickgolfclub.co.uk','created_at' => new DateTime, 'updated_at' => new DateTime],
-            ['id' =>'12','name' => 'Houghton Le Spring', 'post_code'=> 'DH5 8LU', 'website' => 'http://www.houghtongolfclub.co.uk/','created_at' => new DateTime, 'updated_at' => new DateTime],
+            ['id' =>'12','name' => 'Houghton-le-Spring', 'post_code'=> 'DH5 8LU', 'website' => 'http://www.houghtongolfclub.co.uk/','created_at' => new DateTime, 'updated_at' => new DateTime],
             ['id' =>'13','name' => 'Blackwell Grange', 'post_code'=> 'DL2 2SA', 'website' => 'http://www.blackwellgrangegolf.com/','created_at' => new DateTime, 'updated_at' => new DateTime],
             ['id' =>'14','name' => 'Ripon City', 'post_code'=> 'HG4 3HH', 'website' => 'http://www.riponcitygolfclub.com/','created_at' => new DateTime, 'updated_at' => new DateTime],
             ['id' =>'15','name' => 'Bishop Auckland', 'post_code'=> 'DL14 8DL', 'website' => 'http://www.bagc.co.uk/','created_at' => new DateTime, 'updated_at' => new DateTime],
@@ -51,7 +51,7 @@ class ClubTableSeeder extends Seeder
             ['id' =>'34','name' => 'Malton and Norton', 'post_code'=> 'YO17 9QE', 'website' => 'http://www.maltonandnortongolfclub.co.uk/','created_at' => new DateTime, 'updated_at' => new DateTime],
         ['id' =>'35','name' => 'Hunley', 'post_code'=> 'TS12 2FT', 'website' => 'http://www.hunleyhotel.co.uk/','created_at' => new DateTime, 'updated_at' => new DateTime],
             ['id' =>'36','name' => 'Wetherby', 'post_code'=> 'LS22 4JF', 'website' => 'http://www.wetherbygolfclub.co.uk/','created_at' => new DateTime, 'updated_at' => new DateTime],
-            ['id' =>'37','name' => 'Bootheferry', 'post_code'=> 'DN14 7NG', 'website' => 'http://boothferrygolfclub.co.uk/','created_at' => new DateTime, 'updated_at' => new DateTime],
+            ['id' =>'37','name' => 'Boothferry', 'post_code'=> 'DN14 7NG', 'website' => 'http://boothferrygolfclub.co.uk/','created_at' => new DateTime, 'updated_at' => new DateTime],
             ['id' =>'38','name' => 'Oakleaf', 'post_code'=> 'DL5 6QZ', 'website' => 'http://www.great-aycliffe.gov.uk/oakleafgolfcomplex/home/','created_at' => new DateTime, 'updated_at' => new DateTime],
 
             ['id' =>'999','name' => 'Google', 'post_code'=> 'AA12 2ZZ', 'website' => 'http://www.google.co.uk/','created_at' => new DateTime, 'updated_at' => new DateTime]

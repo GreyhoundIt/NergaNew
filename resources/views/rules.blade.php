@@ -40,7 +40,7 @@
 
                             <li>	In all cases of abandonment attempts to rearrange the fixture shall be made to fulfil the fixture and
                                 create revenue for the Host club. A rearranged date must be offered within one month of abandonment.
-                                However,the rearranged fixture date must be acceptable to all Clubs in that League. If
+                                However, the rearranged fixture date must be acceptable to all Clubs in that League. If
                                 one or more Clubs cannot support the rearranged date the fixture will be deemed void.</li>
 
                             <li>	All matches will be played in Stableford format off full handicap. The handicap range NERGA 16 to 28 / INTER 8 - 15

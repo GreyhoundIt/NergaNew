@@ -38,7 +38,6 @@ class Fixture extends Model
     public function handelFileUploads(Requests\FixtureUpdateRequest $request, Fixture $fixture, $name)
     {
         //get the old record
-        print_r($request); die();
         $oldData = $fixture->$name;
         if ($request->file($name)) {
             $file = $request->file($name);
@@ -58,12 +57,11 @@ class Fixture extends Model
             $fileName = $file->getClientOriginalName();
             $fileName = time() . '-' .preg_replace("/[\s_]/", "-", $fileName);
             $stream = fopen($file->getRealPath(), 'r+');
-
+            var_dump("yes"); die();
             Flysystem::connection('awss3')->writeStream($destinationPath . "/" . $fileName, $stream, ['visibility' => 'public']);
            // $file->move($destinationPath, $fileName);
             $path = $destinationPath . $fileName;
-            // tweet that a file has been updated.
-            // $this->sendFixtureUpdateTweet($fixture, $name);
+
             return $path;
         } else {
             return $oldData;

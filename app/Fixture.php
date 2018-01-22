@@ -38,7 +38,7 @@ class Fixture extends Model
     public function handelFileUploads(Requests\FixtureUpdateRequest $request, Fixture $fixture, $name)
     {
         //get the old record
-        Print_r($request); die();
+        print_r($request); die();
         $oldData = $fixture->$name;
         if ($request->file($name)) {
             $file = $request->file($name);

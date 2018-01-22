@@ -74,7 +74,7 @@
         <entry file="file://$PROJECT_DIR$/composer.json">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="140">
-              <caret line="7" column="19" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
+              <caret line="7" column="18" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
               <folding />
             </state>
           </provider>
@@ -796,7 +796,7 @@
       <workItem from="1516388209581" duration="5684000" />
       <workItem from="1516453582646" duration="4663000" />
       <workItem from="1516543756599" duration="5723000" />
-      <workItem from="1516651089444" duration="6245000" />
+      <workItem from="1516651089444" duration="6325000" />
     </task>
     <task id="LOCAL-00001" summary="Updated clubs for 2018 season">
       <created>1516451875290</created>
@@ -809,7 +809,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="267617000" />
+    <option name="totallyTimeSpent" value="267697000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="6" />
@@ -1313,7 +1313,7 @@
     <entry file="file://$PROJECT_DIR$/composer.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="140">
-          <caret line="7" column="19" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
+          <caret line="7" column="18" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
           <folding />
         </state>
       </provider>

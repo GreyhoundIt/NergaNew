@@ -5755,7 +5755,8 @@ header h1 {
   color: #FFFFFF; }
 
 .inner-content {
-  background-color: white; }
+  background-color: white;
+  min-height: 90vh;}
   .inner-content h1 {
     font-size: 32px; }
 

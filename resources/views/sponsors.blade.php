@@ -8,7 +8,7 @@
                 <div class="inner-content col-md-12">
                     <h1>NERGA would like to thank our following sponsors</h1>
                     <h3>Ramside Hall</h3>
-                    <a href="http://www.ramsidehallhotel.co.uk/golf/">Ramside Hall golf</a>
+                    <a href="http://www.ramsidehallhotel.co.uk/golf/"><img alt="Ramside Hall" src="/images/RamsideLogo.jpg" /> </a>
 
                 </div>
                 <?php echo View::make('partials.footer') ?>

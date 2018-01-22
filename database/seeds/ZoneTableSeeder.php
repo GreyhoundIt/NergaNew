@@ -13,7 +13,7 @@ class ZoneTableSeeder extends Seeder
     {
         DB::table('zones')->insert([
 
-            ['id'=> '1','league_id'=> '1','name' => 'Inter Blue', 'rep_name' =>'Sammy Howorth', 'rep_club' =>'Crook','created_at' => new DateTime, 'updated_at' => new DateTime,],
+            ['id'=> '1','league_id'=> '1','name' => 'Inter Blue', 'rep_name' =>'Sammy Howarth', 'rep_club' =>'Crook','created_at' => new DateTime, 'updated_at' => new DateTime,],
             ['id'=> '2','league_id'=> '1','name' => 'Inter Red', 'rep_name' =>'Tony Creaser', 'rep_club' =>'Malton and Norton','created_at' => new DateTime, 'updated_at' => new DateTime,],
             ['id'=> '3','league_id'=> '1','name' => 'Inter Yellow', 'rep_name' =>'Steve Black', 'rep_club' =>'Bedale','created_at' => new DateTime, 'updated_at' => new DateTime,],
 

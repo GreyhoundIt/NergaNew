@@ -24,7 +24,7 @@
                         <ol>
                             <li>	All players should be at least 18 years of age on the day they play the NERGA / INTER fixture</li>
 
-                            <li>	Each Club shall host onr weekend fixture per season requiring the 1st Tee to be reserved for up
+                            <li>	Each Club shall host one weekend fixture per season requiring the 1st Tee to be reserved for up
                                 to three hours.The only exception to this will be for new Member Clubs who may be allowed to use
                                 a Bank Holiday date in their first season only</li>
 

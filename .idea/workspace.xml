@@ -40,8 +40,8 @@
       <file leaf-file-name="UserZoneController.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/Http/Controllers/UserZoneController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="735">
-              <caret line="59" column="189" selection-start-line="59" selection-start-column="189" selection-end-line="59" selection-end-column="189" />
+            <state relative-caret-position="255">
+              <caret line="36" column="9" selection-start-line="36" selection-start-column="9" selection-end-line="36" selection-end-column="9" />
               <folding />
             </state>
           </provider>
@@ -745,7 +745,7 @@
       <workItem from="1516388209581" duration="5684000" />
       <workItem from="1516453582646" duration="4663000" />
       <workItem from="1516543756599" duration="5723000" />
-      <workItem from="1516651089444" duration="6902000" />
+      <workItem from="1516651089444" duration="7020000" />
     </task>
     <task id="LOCAL-00001" summary="Updated clubs for 2018 season">
       <created>1516451875290</created>
@@ -758,7 +758,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="268274000" />
+    <option name="totallyTimeSpent" value="268392000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="6" />
@@ -1262,8 +1262,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/UserZoneController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="735">
-          <caret line="59" column="189" selection-start-line="59" selection-start-column="189" selection-end-line="59" selection-end-column="189" />
+        <state relative-caret-position="255">
+          <caret line="36" column="9" selection-start-line="36" selection-start-column="9" selection-end-line="36" selection-end-column="9" />
           <folding />
         </state>
       </provider>

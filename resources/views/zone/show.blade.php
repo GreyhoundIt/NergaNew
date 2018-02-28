@@ -37,22 +37,22 @@
                             @endif
                         @endif
 
-                        @if(isset($forcast)){
-                        @foreach($forecast as $weather)
-                            <div class="equal">
-                                <div class="col-md-2 pad-bot weather-box">
-                                    <p class="text-center">
-                                        <span class="text-center">{{$weather->time->day->format('d.m.Y')}}</span><br/>
-                                        <span class="text-center">{{ucwords($weather->weather->description)}}</span><br/>
-                                        <img class="text-center"
-                                             src="http://openweathermap.org/img/w/{{$weather->weather->icon}}.png"/><br/>
-                                        Temp: {{$weather->temperature}}<br/>
-                                        Wind: {{ucwords($weather->wind->direction->getDescription())}}
-                                        , {{ucwords($weather->wind->speed->getDescription())}}
-                                    </p>
+                        @if(isset($forecast))
+                            @foreach($forecast as $weather)
+                                <div class="equal">
+                                    <div class="col-md-2 pad-bot weather-box">
+                                        <p class="text-center">
+                                            <span class="text-center">{{$weather->time->day->format('d.m.Y')}}</span><br/>
+                                            <span class="text-center">{{ucwords($weather->weather->description)}}</span><br/>
+                                            <img class="text-center"
+                                                 src="http://openweathermap.org/img/w/{{$weather->weather->icon}}.png"/><br/>
+                                            Temp: {{$weather->temperature}}<br/>
+                                            Wind: {{ucwords($weather->wind->direction->getDescription())}}
+                                            , {{ucwords($weather->wind->speed->getDescription())}}
+                                        </p>
+                                    </div>
                                 </div>
-                            </div>
-                        @endforeach
+                            @endforeach
                         @endif
 
                     @else

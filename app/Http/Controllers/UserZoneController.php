@@ -75,7 +75,7 @@ class UserZoneController extends Controller
         try {
            // $forecast = $owm->getWeather('Berlin', $units, $lang);
 
-            $forecast = $owm->getDailyWeatherForecast("zip:DL14 6NQ. UK", $units, $lang, '90d625c068e3f3d7818b9e4237871e21', 6);
+            $forecast = $owm->getDailyWeatherForecast("Durham, GB", $units, $lang, '90d625c068e3f3d7818b9e4237871e21', 6);
           //  dd($forecast->url);
         } catch(OWMException $e) {
             echo 'OpenWeatherMap exception: ' . $e->getMessage() . ' (Code ' . $e->getCode() . ').';
@@ -83,7 +83,7 @@ class UserZoneController extends Controller
             echo 'General exception: ' . $e->getMessage() . ' (Code ' . $e->getCode() . ').';
         }
 //var_dump($owm); exit;
-      //  $forecast = $owm->getDailyWeatherForecast($location, $units, $lang, '90d625c068e3f3d7818b9e4237871e21', 5);
+       // $forecast = $owm->getDailyWeatherForecast($location, $units, $lang, '90d625c068e3f3d7818b9e4237871e21', 5);
       // var_dump($forecast); exit;
         return $forecast;
     }

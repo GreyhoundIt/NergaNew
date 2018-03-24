@@ -13,7 +13,7 @@
                    Bishop course).</p>
                 <p>There is no change to the players and teams invited to the re-arranged event. Full details on the
                 start sheet below.</p>
-                <h3><a href="{{ url ('info/start.pdf') }}" target="_blank">Start Sheet</a></h3>
+                <h3><a href="{{ url ('info/startv3.pdf') }}" target="_blank">Start Sheet</a></h3>
 
                 <p>The following should be noted.</br></br>
                 <b>Cost</b> - £20 per player to be paid at Registration desk on the day.</br></br>

@@ -8,12 +8,10 @@
             <div class="inner-content col-md-12">
                 <h1>Rearranged - NERGA Rabbits Finals Day</h1>
                 <img src="/images/Woodham.jpg" class="center-block leadpic" alt="North East Rabbits League Logo">
-               <p>Due to inclement weather, the 2017 Rabbits Finals day, scheduled for Woodham was cancelled, and
-                   the rearranged Finals day has been arranged for Saturday 31st March 2018 at Ramside Hall (Prince
-                   Bishop course).</p>
+               <p>Due to inclement weather, the 2017 Rabbits Finals day, scheduled for Woodham in September 2017 was cancelled, similarly the rescheduled event on 31/3/18 also had to be cancelled. Our 3rd attempt at hosting this event will take place on Saturday 12/5/18 at Ramside Hall</p>
                 <p>There is no change to the players and teams invited to the re-arranged event. Full details on the
                 start sheet below.</p>
-                <h3><a href="{{ url ('info/startv3.pdf') }}" target="_blank">Start Sheet</a></h3>
+                <h3><a href="{{ url ('info/startv4.pdf') }}" target="_blank">Start Sheet</a></h3>
 
                 <p>The following should be noted.</br></br>
                 <b>Cost</b> - £20 per player to be paid at Registration desk on the day.</br></br>

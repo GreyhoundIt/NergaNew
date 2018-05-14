@@ -22,6 +22,17 @@
 
                                 Winner - Anthony Blackburn - Ripon City</br>
                             Runner-up - Steve Buxton - Romanby</p>
+
+                            <p><b>  NERGA Club Championship </b> </br>
+
+                                Winners - Malton & Norton </br>
+                                Runners-up - Rudding Park</p>
+
+                            <p><b>  NERGA Individual Championship </b> </br>
+
+                                Winner - Andy Bishop - Richmond</br>
+                                Runner-up - Chris Ball - Rudding Park
+                            </p>
                         </div>
                     </div>
 

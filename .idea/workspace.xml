@@ -2,9 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="190208ae-950f-4336-ba7b-58592a497a64" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/info/startv4.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/info/2017-Rabbits-Finals Day-Team-Players-Result.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/info/2017-Rabbits-Finals-Day-Team-Result.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/info/2017-Rabbits-INDIVIDUAL-Result.pdf" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/finals.blade.php" afterPath="$PROJECT_DIR$/resources/views/finals.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/honours.blade.php" afterPath="$PROJECT_DIR$/resources/views/honours.blade.php" />
     </list>
     <ignored path="NergaNew.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -29,21 +32,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="home.blade.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/views/home.blade.php">
+      <file leaf-file-name="finals.blade.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/views/finals.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="460">
+              <caret line="21" column="6" selection-start-line="21" selection-start-column="6" selection-end-line="21" selection-end-column="6" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="finals.blade.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/resources/views/finals.blade.php">
+      <file leaf-file-name="honours.blade.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/resources/views/honours.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="15" column="50" selection-start-line="15" selection-start-column="50" selection-end-line="15" selection-end-column="50" />
+            <state relative-caret-position="60">
+              <caret line="33" column="69" selection-start-line="33" selection-start-column="69" selection-end-line="33" selection-end-column="69" />
               <folding />
             </state>
           </provider>
@@ -52,8 +55,8 @@
       <file leaf-file-name="UserTableSeeder.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/database/seeds/UserTableSeeder.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="18" column="123" selection-start-line="18" selection-start-column="113" selection-end-line="18" selection-end-column="123" />
+            <state relative-caret-position="700">
+              <caret line="35" column="130" selection-start-line="35" selection-start-column="118" selection-end-line="35" selection-end-column="130" />
               <folding />
             </state>
           </provider>
@@ -72,7 +75,7 @@
       <file leaf-file-name="FixtureTableSeeder.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/database/seeds/FixtureTableSeeder.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="200">
+            <state relative-caret-position="20">
               <caret line="10" column="7" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
               <folding />
             </state>
@@ -177,7 +180,6 @@
         <option value="$PROJECT_DIR$/resources/views/layouts/app.blade.php" />
         <option value="$PROJECT_DIR$/vendor/cmfcmf/openweathermap-php-api/Cmfcmf/OpenWeatherMap/WeatherForecast.php" />
         <option value="$PROJECT_DIR$/vendor/cmfcmf/openweathermap-php-api/Cmfcmf/OpenWeatherMap.php" />
-        <option value="$PROJECT_DIR$/resources/views/honours.blade.php" />
         <option value="$PROJECT_DIR$/database/seeds/ClubTableSeeder.php" />
         <option value="$PROJECT_DIR$/database/migrations/2018_01_21_152937_add_resps_to_zones_table.php" />
         <option value="$PROJECT_DIR$/app/Zone.php" />
@@ -199,6 +201,7 @@
         <option value="$PROJECT_DIR$/app/Http/Controllers/UserZoneController.php" />
         <option value="$PROJECT_DIR$/database/seeds/UserTableSeeder.php" />
         <option value="$PROJECT_DIR$/resources/views/finals.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/honours.blade.php" />
       </list>
     </option>
   </component>
@@ -325,8 +328,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -559,6 +560,8 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -572,19 +575,19 @@
     <property name="SearchEverywhereHistoryKey" value="Open&#9;FILE&#9;file:///Users/matthew/Desktop/NergaNew/vendor/cmfcmf/openweathermap-php-api/Cmfcmf/OpenWeatherMap.php&#10;FileV&#9;null&#9;null&#10;Zone/show&#9;FILE&#9;file:///Users/matthew/Desktop/NergaNew/resources/views/zone/show.blade.php&#10;user&#9;FILE&#9;file:///Users/matthew/Desktop/NergaNew/app/Http/Controllers/UserZoneController.php&#10;Fly&#9;FILE&#9;file:///Users/matthew/Desktop/NergaNew/config/flysystem.php&#10;weather&#9;null&#9;null&#10;wea&#9;null&#9;null&#10;.sc&#9;FILE&#9;file:///Users/matthew/Desktop/NergaNew/resources/assets/sass/app.scss&#10;se&#9;FILE&#9;file:///Users/matthew/Desktop/NergaNew/app/Providers/AppServiceProvider.php&#10;routes&#9;FILE&#9;file:///Users/matthew/Desktop/NergaNew/app/Http/routes.php&#10;ho&#9;FILE&#9;file:///Users/matthew/Desktop/NergaNew/app/Http/Controllers/HomeController.php&#10;club&#9;FILE&#9;file:///Users/matthew/Desktop/NergaNew/app/Http/Controllers/AdminClubController.php&#10;home&#9;null&#9;null&#10;rout&#9;FILE&#9;file:///Users/matthew/Desktop/NergaNew/app/Http/routes.php&#10;UT&#9;FILE&#9;file:///Users/matthew/Desktop/NergaNew/app/Http/Controllers/UserTeamSheetController.php&#10;z&#9;FILE&#9;file:///Users/matthew/Desktop/NergaNew/app/Http/Controllers/UserZoneController.php&#10;fix&#9;null&#9;null&#10;f&#9;FILE&#9;file:///Users/matthew/Desktop/NergaNew/app/Http/Controllers/AdminFixtureController.php&#10;adminc&#9;FILE&#9;file:///Users/matthew/Desktop/NergaNew/app/Http/Controllers/AdminClubController.php&#10;route&#9;FILE&#9;file:///Users/matthew/Desktop/NergaNew/app/Http/routes.php&#10;zone&#9;FILE&#9;file:///Users/matthew/Desktop/NergaNew/app/Http/Controllers/UserZoneController.php&#10;teamc&#9;FILE&#9;file:///Users/matthew/Desktop/NergaNew/app/Http/Controllers/UserTeamSheetController.php&#10;con&#9;FILE&#9;file:///Users/matthew/Desktop/NergaNew/app/Http/Controllers/AdminFixtureController.php&#10;log&#9;FILE&#9;file:///Users/matthew/Desktop/NergaNew/resources/views/auth/login.blade.php&#10;Pro&#9;FILE&#9;file:///Users/matthew/Desktop/NergaNew/app/Providers/AppServiceProvider.php&#10;login&#9;FILE&#9;file:///Users/matthew/Desktop/NergaNew/resources/views/auth/login.blade.php&#10;auth&#9;FILE&#9;file:///Users/matthew/Desktop/NergaNew/app/Http/Controllers/Auth/AuthController.php&#10;app.php&#9;FILE&#9;file:///Users/matthew/Desktop/NergaNew/config/app.php&#10;rou&#9;FILE&#9;file:///Users/matthew/Desktop/NergaNew/app/Http/routes.php&#10;zo&#9;null&#9;null&#10;adf&#9;FILE&#9;file:///Users/matthew/Desktop/NergaNew/app/Http/Controllers/AdminFixtureController.php&#10;zon&#9;FILE&#9;file:///Users/matthew/Desktop/NergaNew/app/Http/Controllers/UserZoneController.php&#10;fi&#9;FILE&#9;file:///Users/matthew/Desktop/NergaNew/app/Fixture.php&#10;fixt&#9;FILE&#9;file:///Users/matthew/Desktop/NergaNew/app/Http/Controllers/AdminFixtureController.php&#10;team&#9;null&#9;null&#10;cont&#9;FILE&#9;file:///Users/matthew/Desktop/NergaNew/app/Http/Controllers/AdminFixtureController.php&#10;teamsheet/c&#9;FILE&#9;file:///Users/matthew/Desktop/NergaNew/resources/views/teamsheets/create.blade.php&#10;tea&#9;null&#9;null&#10;h1&#9;FILE&#9;file:///Users/matthew/Desktop/NergaNew/vendor/symfony/console/Tests/Fixtures/application_renderexception_doublewidth1.txt&#10;getClub&#9;null&#9;null&#10;fi\&#9;FILE&#9;file:///Users/matthew/Desktop/NergaNew/app/Fixture.php&#10;app&#9;FILE&#9;file:///Users/matthew/Desktop/NergaNew/config/app.php&#10;env&#9;FILE&#9;file:///Users/matthew/Desktop/NergaNew/.env&#10;fixtur&#9;FILE&#9;file:///Users/matthew/Desktop/NergaNew/app/Fixture.php&#10;ro&#9;FILE&#9;file:///Users/matthew/Desktop/NergaNew/app/Http/routes.php&#10;tEam&#9;FILE&#9;file:///Users/matthew/Desktop/NergaNew/app/TeamSheet.php" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/public/info" />
-      <recent name="$PROJECT_DIR$/public/css" />
-      <recent name="$PROJECT_DIR$/resources/views/admin" />
-      <recent name="$PROJECT_DIR$/resources/views/admin/clubs" />
-      <recent name="$PROJECT_DIR$/resources/views/teamsheets" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/public/info" />
       <recent name="$PROJECT_DIR$/public/finals" />
       <recent name="$PROJECT_DIR$/resources/views/teamsheets" />
       <recent name="$PROJECT_DIR$/resources/views/clubs" />
       <recent name="$PROJECT_DIR$/resources/views/fixtures" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/public/info" />
+      <recent name="$PROJECT_DIR$/public/css" />
+      <recent name="$PROJECT_DIR$/resources/views/admin" />
+      <recent name="$PROJECT_DIR$/resources/views/admin/clubs" />
+      <recent name="$PROJECT_DIR$/resources/views/teamsheets" />
     </key>
   </component>
   <component name="RunManager">
@@ -710,7 +713,11 @@
       <workItem from="1522410220157" duration="559000" />
       <workItem from="1522677608600" duration="656000" />
       <workItem from="1522909507805" duration="208000" />
-      <workItem from="1523602827421" duration="94000" />
+      <workItem from="1523602827421" duration="481000" />
+      <workItem from="1524031939869" duration="674000" />
+      <workItem from="1524488364246" duration="1173000" />
+      <workItem from="1525883841486" duration="1294000" />
+      <workItem from="1526320283820" duration="643000" />
     </task>
     <task id="LOCAL-00001" summary="Updated clubs for 2018 season">
       <created>1516451875290</created>
@@ -723,7 +730,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="281548000" />
+    <option name="totallyTimeSpent" value="285719000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="1027" extended-state="6" />
@@ -822,13 +829,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/Http/Requests/FixtureUpdateRequest.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/vendor/graham-campbell/flysystem/config/flysystem.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-29">
@@ -1129,14 +1129,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/database/seeds/UserTableSeeder.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="18" column="123" selection-start-line="18" selection-start-column="113" selection-end-line="18" selection-end-column="123" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Requests/TeamCreateRequest.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1145,9 +1137,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/database/seeds/UserTableSeeder.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="700">
+          <caret line="35" column="130" selection-start-line="35" selection-start-column="118" selection-end-line="35" selection-end-column="130" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/database/seeds/FixtureTableSeeder.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
+        <state relative-caret-position="20">
           <caret line="10" column="7" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
           <folding />
         </state>
@@ -1195,8 +1195,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/finals.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="15" column="50" selection-start-line="15" selection-start-column="50" selection-end-line="15" selection-end-column="50" />
+        <state relative-caret-position="460">
+          <caret line="21" column="6" selection-start-line="21" selection-start-column="6" selection-end-line="21" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/honours.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="33" column="69" selection-start-line="33" selection-start-column="69" selection-end-line="33" selection-end-column="69" />
           <folding />
         </state>
       </provider>

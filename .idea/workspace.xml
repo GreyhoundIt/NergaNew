@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="190208ae-950f-4336-ba7b-58592a497a64" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/finals.blade.php" afterPath="$PROJECT_DIR$/resources/views/finals.blade.php" />
     </list>
     <ignored path="NergaNew.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -27,21 +28,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="finals.blade.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="finals.blade.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/resources/views/finals.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="460">
-              <caret line="21" column="6" selection-start-line="21" selection-start-column="6" selection-end-line="21" selection-end-column="6" />
+            <state relative-caret-position="360">
+              <caret line="16" column="24" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="24" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="honours.blade.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="honours.blade.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/views/honours.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="45" column="67" selection-start-line="45" selection-start-column="67" selection-end-line="45" selection-end-column="67" />
+            <state relative-caret-position="160">
+              <caret line="8" column="36" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="36" />
               <folding />
             </state>
           </provider>
@@ -195,8 +196,8 @@
         <option value="$PROJECT_DIR$/resources/views/partials/weather.blade.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/UserZoneController.php" />
         <option value="$PROJECT_DIR$/database/seeds/UserTableSeeder.php" />
-        <option value="$PROJECT_DIR$/resources/views/finals.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/honours.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/finals.blade.php" />
       </list>
     </option>
   </component>
@@ -712,7 +713,7 @@
       <workItem from="1524031939869" duration="674000" />
       <workItem from="1524488364246" duration="1173000" />
       <workItem from="1525883841486" duration="1294000" />
-      <workItem from="1526320283820" duration="782000" />
+      <workItem from="1526320283820" duration="1020000" />
     </task>
     <task id="LOCAL-00001" summary="Updated clubs for 2018 season">
       <created>1516451875290</created>
@@ -725,7 +726,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="285858000" />
+    <option name="totallyTimeSpent" value="286096000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="1027" extended-state="6" />
@@ -1188,18 +1189,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/finals.blade.php">
+    <entry file="file://$PROJECT_DIR$/resources/views/honours.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="460">
-          <caret line="21" column="6" selection-start-line="21" selection-start-column="6" selection-end-line="21" selection-end-column="6" />
+        <state relative-caret-position="160">
+          <caret line="8" column="36" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="36" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/honours.blade.php">
+    <entry file="file://$PROJECT_DIR$/resources/views/finals.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="45" column="67" selection-start-line="45" selection-start-column="67" selection-end-line="45" selection-end-column="67" />
+        <state relative-caret-position="360">
+          <caret line="16" column="24" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="24" />
           <folding />
         </state>
       </provider>
